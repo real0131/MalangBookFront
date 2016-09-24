@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*임시 폰트*/
+
+body{
+    font:14px 'Noto Sans KR', Helvetica,Arial,sans-serif;
+}
+/*모바일 웹*/
+@media only screen and (max-device-width: 480px){
+
+}
+
+/*PC웹*/
+@media screen and (min-device-width: 480px)
+{
+
+}
+
+
+
+
+
