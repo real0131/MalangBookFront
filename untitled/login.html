@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="theme-color" content="#989898">
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
-    <title>Title</title>
+    <title>Login</title>
 </head>
 <body>
 <header>
@@ -49,16 +50,22 @@
     </div>
 </nav>
 <main>
-    <div>
-        <form>
-            <input name="id" type="text">
-            <input name="password" type="text">
-            <input name="submit" type="button">
-        </form>
-    </div>
+    <section>
+        <div class="login">
+            <img src="" alt="main-logo"/>
+            <form class="login_form" action="/login">
+                <input name="id" type="text" placeholder="아이디"><br>
+                <input name="password" type="text" placeholder="비밀번호"><br>
+                <div>
+                    <input name="find password" type="button" value="id/비밀번호 찾기">
+                    <input name="submit" type="submit">
+                </div>
+            </form>
+        </div>
+    </section>
 </main>
 <footer>
-
+    <p>footer</p>
 </footer>
 </body>
 </html>
