@@ -42,7 +42,7 @@ header{
         margin:  8px 0 8px 0;
         border-radius: 10px;
     }
-    input{
+    #search_input{
         padding: 0;
         font-size: 1.2rem;
         border: none;
