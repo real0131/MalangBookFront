@@ -120,7 +120,7 @@ input::-webkit-search-cancel-button {
         height: 40px;
         width: 720px;
         display: inline-block;
-        border: 2px solid #989898;
+        border: 2px solid #d2d2d2;
         margin:  8px 0 8px 0;
         border-radius: 10px;
     }
