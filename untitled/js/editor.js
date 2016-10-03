@@ -5,6 +5,9 @@ $("div.menu").click(function () {
     console.log(textValue);
     html = '<p>'+textValue+'</p>';
     input.empty();
-    input.after(html);
+    input.after(textValue);
     console.log(html);
 });
+function editorSubmit(){
+    $("textarea.editor-input").value = $("div.editor-i").val();
+}

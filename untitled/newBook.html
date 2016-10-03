@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <div class="header-wrapper">
+        <div class="logo-wrapper">
+            <img src="" alt="main-logo">
+        </div>
+        <div class="search-container">
+            <div class="search-wrapper">
+                <img src="image/search.png" width="32px" height="32px" alt="search" id="search-icon">
+                <input type="search" name="search" placeholder="책 검색" id="search-input">
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="nav-wrapper">
+        <ul class="nav-ul">
+            <li>
+                <a href="#" style="color: white">홈</a>
+            </li>
+            <li>
+                <a style="color: white">소설</a>
+                <ul>
+
+                </ul>
+            </li>
+            <li>
+                <a style="color: white">동화</a>
+                <ul>
+
+                </ul>
+            </li>
+            <li>
+                <a style="color: white">시</a>
+                <ul>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="content-wrapper" >
+        <h1 style="border-bottom: 1px solid black;">책 편찬하기</h1>
+        <form action="" id="book-form">
+            <div>
+                <p><label for="categori">분류</label></p>
+                <input id="categori" name="categori">
+            </div>
+            <div>
+                <p><label for="page-limit">페이지 제한</label></p>
+                <input type="number" id="page-limit" name="page-limit" placeholder="0 :제한 없음">
+            </div>
+            <div>
+                <p><label for="chapter-limit">단원 제한</label></p>
+                <input type="number" id="chapter-limit" name="chapter-limit" placeholder="0 :제한 없음">
+            </div>
+            <div>
+                <p><label for="overlap">중복 참여 가능 여부</label></p>
+                <select form="book-form" name="overlap" id="overlap">
+                    <option value="yes">예</option>
+                    <option value="no">아니오</option>
+                </select>
+            </div>
+            <div>
+                <p><label for="series">시리즈 여부</label></p>
+                <select form="book-form" name="series" id="series">
+                    <option value="yes">예</option>
+                    <option value="no">아니오</option>
+                </select>
+            </div>
+            <div>
+                <p><label for="private">비공개 여부</label></p>
+                <select form="book-form" name="private" id="private">
+                    <option value="yes">예</option>
+                    <option value="no">아니오</option>
+                </select>
+            </div>
+            <div>
+                <p><label for="right-click">우클릭 설정</label></p>
+                <input type="checkbox" id="right-click" name="right-click">
+                <div class="silder"></div>
+            </div>
+            <div>
+                <p><label for="share">공유 설정</label></p>
+                <input type="checkbox" name="share" id="share">
+                <div class="silder"></div>
+            </div>
+            <div>
+                <p><label for="modify">&lt;관리자&gt;다른사람이 쓴 글 수정</label></p>
+                <input type="checkbox" id="modify" name="modify">
+                <div class="silder"></div>
+            </div>
+            <div>
+                <p><label for="delete">&lt;관리자&gt;다른사람이 쓴 글 삭제</label></p>
+                <input type="checkbox" id="delete" name="delete">
+                <div class="silder"></div>
+            </div>
+            <div>
+                <p><label for="font">글꼴 지정</label></p>
+                <select form="book-form" name="font" id="font">
+                    <option value="type1">타입1</option>
+                    <option value="type2">타입2</option>
+                </select>
+            </div>
+            <div>
+                <div>취소</div>
+                <div><input type="submit" value="확인"></div>
+            </div>
+        </form>
+    </div>
+</main>
+    </body>
+</html>

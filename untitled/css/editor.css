@@ -1,7 +1,5 @@
 .menu{
-    height: 50px;
-    width: 50px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 100%;
 }
 .menu:hover{
     cursor: pointer;
@@ -11,4 +9,17 @@
     width: 100%;
     border: 1px solid black;
     display: inline-block;
+}
+.editor-i{
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.editor-menu-list{
+    width: 100%;
+    list-style-type: none;
+}
+li{
+    margin-left: 10px;
+    float: left;
 }
