@@ -51,7 +51,7 @@
 </nav>
 <main>
     <div class="content-wrapper" >
-        <h1 style="border-bottom: 1px solid black;">책 편찬하기</h1>
+        <p id="make-form-title">책 편찬하기</p>
         <form action="" id="book-form">
             <div>
                 <p><label for="categori">분류</label></p>
@@ -59,11 +59,11 @@
             </div>
             <div>
                 <p><label for="page-limit">페이지 제한</label></p>
-                <input type="number" id="page-limit" name="page-limit" placeholder="0 :제한 없음">
+                <input type="number" id="page-limit" name="page-limit">
             </div>
             <div>
                 <p><label for="chapter-limit">단원 제한</label></p>
-                <input type="number" id="chapter-limit" name="chapter-limit" placeholder="0 :제한 없음">
+                <input type="number" id="chapter-limit" name="chapter-limit">
             </div>
             <div>
                 <p><label for="overlap">중복 참여 가능 여부</label></p>
@@ -89,22 +89,26 @@
             <div>
                 <p><label for="right-click">우클릭 설정</label></p>
                 <input type="checkbox" id="right-click" name="right-click">
-                <div class="silder"></div>
+                <div class="accept">허용</div>
+                <div class="deny">비허용</div>
             </div>
             <div>
                 <p><label for="share">공유 설정</label></p>
                 <input type="checkbox" name="share" id="share">
-                <div class="silder"></div>
+                <div class="accept">허용</div>
+                <div class="deny">비허용</div>
             </div>
             <div>
                 <p><label for="modify">&lt;관리자&gt;다른사람이 쓴 글 수정</label></p>
                 <input type="checkbox" id="modify" name="modify">
-                <div class="silder"></div>
+                <div class="accept">허용</div>
+                <div class="deny">비허용</div>
             </div>
             <div>
                 <p><label for="delete">&lt;관리자&gt;다른사람이 쓴 글 삭제</label></p>
                 <input type="checkbox" id="delete" name="delete">
-                <div class="silder"></div>
+                <div class="accept">허용</div>
+                <div class="deny">비허용</div>
             </div>
             <div>
                 <p><label for="font">글꼴 지정</label></p>
@@ -114,8 +118,8 @@
                 </select>
             </div>
             <div>
-                <div style="float: right;"><input type="submit" value="확인" class="btn-submit"></div>
-                <div style="float: right;" class="btn-cancel">취소</div>
+                <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
+                <div style="float: right; font-size: 18px;" class="btn-cancel">취소</div>
             </div>
         </form>
     </div>
