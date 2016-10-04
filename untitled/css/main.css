@@ -16,6 +16,42 @@ main {
     flex: 1 0 auto;
 }
 
+select{
+    width: 144px;
+    height: 36px;
+    background: url("image/dropdown_menu.png") no-repeat #ffffff 144px 36px;
+}
+option{
+    background-color: white;
+    color: black;
+}
+
+.btn-submit{
+    width: 144px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    background-color: #737373;
+    color: white;
+}
+.btn-submit:hover{
+    cursor : pointer;
+}
+.btn-cancel{
+    text-align: center;
+    width: 144px;
+    height: 47px;
+    line-height: 47px;
+    border-radius: 10px;
+    background-color: #ef5350;
+    color: white;
+    margin-right: 20px;
+}
+.btn-cancel:hover{
+    cursor: pointer;
+}
+
+
 /*모바일 웹*/
 @media only screen and (max-device-width: 480px){
     /*main*/

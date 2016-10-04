@@ -59,8 +59,8 @@ input::-webkit-search-cancel-button {
     }
     #search-icon{
         margin: 5px 16px 5px 16px;
-        height: 32px;
-        line-height: 30px;
+        height: 18px;
+        line-height: 18px;
         float: left;
     }
     /*nav*/
@@ -139,9 +139,8 @@ input::-webkit-search-cancel-button {
     input{
     }
     #search-icon{
-        margin: 5px 16px 5px 16px;
-        height: 32px;
-        line-height: 30px;
+        margin: 13px 16px 13px 16px;
+        height: 18px;
         float: left;
     }
     /*nav*/
