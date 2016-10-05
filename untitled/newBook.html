@@ -87,28 +87,32 @@
                 </select>
             </div>
             <div>
-                <p><label for="right-click">우클릭 설정</label></p>
-                <input type="checkbox" id="right-click" name="right-click">
-                <div class="accept">허용</div>
-                <div class="deny">비허용</div>
+                <p>우클릭 설정</p>
+                <input type="radio" id="right-click-accept" name="right-click" value="accept">
+                <div class="accept"><label for="right-click-accept">허용</label></div>
+                <input type="radio" id="right-click-deny" name="right-click" value="deny">
+                <div class="deny"><label for="right-click-deny">비허용</label></div>
             </div>
             <div>
-                <p><label for="share">공유 설정</label></p>
-                <input type="checkbox" name="share" id="share">
-                <div class="accept">허용</div>
-                <div class="deny">비허용</div>
+                <p>공유 설정</p>
+                <input type="radio" id="share-accept" name="share" class="share" value="accept">
+                <div class="accept"><label for="share-accept">허용</label></div>
+                <input type="radio" id="share-deny" name="share" class="share" value="deny">
+                <div class="deny"><label for="share-deny">비허용</label></div>
             </div>
             <div>
-                <p><label for="modify">&lt;관리자&gt;다른사람이 쓴 글 수정</label></p>
-                <input type="checkbox" id="modify" name="modify">
-                <div class="accept">허용</div>
-                <div class="deny">비허용</div>
+                <p>&lt;관리자&gt;다른사람이 쓴 글 수정</p>
+                <input type="radio" id="modify-accept" name="modify" value="accept">
+                <div class="accept"><label for="modify-accept">허용</label></div>
+                <input type="radio" id="modify-deny" name="modify" value="deny">
+                <div class="deny"><label for="modify-deny">비허용</label></div>
             </div>
             <div>
-                <p><label for="delete">&lt;관리자&gt;다른사람이 쓴 글 삭제</label></p>
-                <input type="checkbox" id="delete" name="delete">
-                <div class="accept">허용</div>
-                <div class="deny">비허용</div>
+                <p>&lt;관리자&gt;다른사람이 쓴 글 삭제</p>
+                <input type="radio" id="delete-accept" name="delete" value="accept">
+                <div class="accept"><label for="delete-accept">허용</label></div>
+                <input type="radio" id="delete-deny" name="delete" value="deny">
+                <div class="deny"><label for="delete-deny">비허용</label></div>
             </div>
             <div>
                 <p><label for="font">글꼴 지정</label></p>
@@ -117,12 +121,15 @@
                     <option value="type2">타입2</option>
                 </select>
             </div>
-            <div>
+            <div style="display: block;">
                 <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
                 <div style="float: right; font-size: 18px;" class="btn-cancel">취소</div>
             </div>
         </form>
     </div>
 </main>
+<footer>
+    <p>footer</p>
+</footer>
     </body>
 </html>
