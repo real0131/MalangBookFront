@@ -4,7 +4,7 @@ made by 2016 chojaeho
 
 #document
  * newbook.html (form name : book-form)
-  - name : categori type : NaN function : 대분류, 소분류
+  - name : category type : NaN function : 대분류, 소분류
   - name : page-limit type : number function : 페이지제한 (0 : 제한 없음)
   - name : chapter-limit type : number function : 단원 제한 (0 : 제한 없음)
   - name : overlap type: select optionValue : (yes : 예) , (no : 아니오) function : 중복 참여 가능 여부

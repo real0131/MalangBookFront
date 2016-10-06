@@ -1,5 +1,13 @@
 .login{
     width: 500px;
     height:500px;
-
+    text-align: center;
+}
+.login-input{
+    width: 357px;
+    height: 48px;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    font-size: 14px;
+    padding-left: 12px;
 }

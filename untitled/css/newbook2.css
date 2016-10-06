@@ -1,0 +1,8 @@
+.book{
+    width: 540px;
+    height: 620px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-top: 1px solid #989898;
+    border-bottom: 1px solid #989898;
+    padding-bottom: 98px;
+}

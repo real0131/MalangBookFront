@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#989898">
+
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/newbook2.css"
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
-    <link rel="stylesheet" type="text/css" href="css/login.css"/>
-    <title>Login</title>
+    <title>Title</title>
 </head>
 <body>
 <header>
@@ -17,8 +17,8 @@
         </div>
         <div class="search-container">
             <div class="search-wrapper">
-                <img src="image/ic_main_search.png"  alt="search" id="search-icon">
-                <input type="search" id="search-input" name="search" placeholder="책 검색" >
+                <img src="image/ic_main_search.png" alt="search" id="search-icon">
+                <input type="search" name="search" placeholder="책 검색" id="search-input">
             </div>
         </div>
     </div>
@@ -51,19 +51,19 @@
     </div>
 </nav>
 <main>
-    <section>
-        <div class="login">
-            <form class="login-form" action="/login">
-                <div><p>아이디<input name="id" type="text" class="login-input"></p></div>
-                <div><p>비밀번호<input name="password" type="password" class="login-input"></p></div>
-                <input name="submit" class="" id="submit" value="이메일 로그인" type="submit"><br>
-                <div>페이스북 로그인</div>
-            </form>
-        </div>
-    </section>
+    <div class="content-wrapper">
+        <p id="make-form-title">책 편찬하기</p>
+        <form action="" id="book-form-2">
+            <div class="book">
+
+            </div>
+            <div style="display: block;">
+                <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
+                <div style="float: right; font-size: 18px;" class="btn-cancel">취소</div>
+            </div>
+        </form>
+    </div>
 </main>
-<footer>
-    <p>footer</p>
-</footer>
+<footer></footer>
 </body>
 </html>

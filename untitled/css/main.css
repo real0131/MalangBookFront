@@ -35,6 +35,15 @@ option{
     float: left;
     border: 1px solid #989898;
 }
+.accept::before{
+    width: 120px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 18px;
+}
+.accept:active{
+
+}
 .deny{
     float: left;
     text-align: center;
@@ -43,6 +52,16 @@ option{
     line-height: 49px;
     font-size: 18px;
     border: 1px solid #989898;
+}
+.deny::before {
+    width: 120px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 18px;
+    border: 1px solid #989898;
+}
+.deny:active{
+
 }
 input[type=radio]
 {
@@ -53,6 +72,11 @@ input[type=radio]
     width: 122px;
     height:50px;
 }
+input[type=radio]:checked
+{
+    background-color: #646464;
+}
+
 .btn-submit{
     width: 144px;
     height: 47px;

@@ -54,62 +54,62 @@
         <p id="make-form-title">책 편찬하기</p>
         <form action="" id="book-form">
             <div>
-                <p><label for="categori">분류</label></p>
-                <input id="categori" name="categori">
+                <p><label for="category">분류</label></p>
+                <input id="category" name="category">
             </div>
             <div>
                 <p><label for="page-limit">페이지 제한</label></p>
-                <input type="number" id="page-limit" name="page-limit">
+                <input type="number" id="page-limit" name="page-limit" value="0">
             </div>
             <div>
                 <p><label for="chapter-limit">단원 제한</label></p>
-                <input type="number" id="chapter-limit" name="chapter-limit">
+                <input type="number" id="chapter-limit" name="chapter-limit" value="0">
             </div>
             <div>
                 <p><label for="overlap">중복 참여 가능 여부</label></p>
                 <select form="book-form" name="overlap" id="overlap">
                     <option value="yes">예</option>
-                    <option value="no">아니오</option>
+                    <option value="no" selected="selected">아니오</option>
                 </select>
             </div>
             <div>
                 <p><label for="series">시리즈 여부</label></p>
                 <select form="book-form" name="series" id="series">
                     <option value="yes">예</option>
-                    <option value="no">아니오</option>
+                    <option value="no" selected="selected">아니오</option>
                 </select>
             </div>
             <div>
                 <p><label for="private">비공개 여부</label></p>
                 <select form="book-form" name="private" id="private">
                     <option value="yes">예</option>
-                    <option value="no">아니오</option>
+                    <option value="no" selected="selected">아니오</option>
                 </select>
             </div>
             <div>
                 <p>우클릭 설정</p>
-                <input type="radio" id="right-click-accept" name="right-click" value="accept">
+                <input type="radio" id="right-click-accept" name="right-click" value="accept" checked="checked">
                 <div class="accept"><label for="right-click-accept">허용</label></div>
                 <input type="radio" id="right-click-deny" name="right-click" value="deny">
                 <div class="deny"><label for="right-click-deny">비허용</label></div>
             </div>
             <div>
                 <p>공유 설정</p>
-                <input type="radio" id="share-accept" name="share" class="share" value="accept">
+                <input type="radio" id="share-accept" name="share" class="share" value="accept" checked="checked">
                 <div class="accept"><label for="share-accept">허용</label></div>
                 <input type="radio" id="share-deny" name="share" class="share" value="deny">
                 <div class="deny"><label for="share-deny">비허용</label></div>
             </div>
             <div>
                 <p>&lt;관리자&gt;다른사람이 쓴 글 수정</p>
-                <input type="radio" id="modify-accept" name="modify" value="accept">
+                <input type="radio" id="modify-accept" name="modify" value="accept" checked="checked">
                 <div class="accept"><label for="modify-accept">허용</label></div>
                 <input type="radio" id="modify-deny" name="modify" value="deny">
                 <div class="deny"><label for="modify-deny">비허용</label></div>
             </div>
             <div>
                 <p>&lt;관리자&gt;다른사람이 쓴 글 삭제</p>
-                <input type="radio" id="delete-accept" name="delete" value="accept">
+                <input type="radio" id="delete-accept" name="delete" value="accept" checked="checked">
                 <div class="accept"><label for="delete-accept">허용</label></div>
                 <input type="radio" id="delete-deny" name="delete" value="deny">
                 <div class="deny"><label for="delete-deny">비허용</label></div>
