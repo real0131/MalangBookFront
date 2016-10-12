@@ -15,3 +15,8 @@ made by 2016 chojaeho
   - name : modify type: radio function : 관리자 다른사람이 쓴글 수정 (accept : 허용 , deny : 비허용)
   - name : delete type: radio function : 관리자 다른사람이 쓴글 삭제 (accept : 허용 , deny : 비허용)
   - name : font type : select optionValue : NaN function : 글꼴 설정
+ * login.html (form name : login-form, login-findID, login-findPW, login-signUP)
+  - login-form
+  - login-findId
+  - login-findPW
+  - login-signUP
