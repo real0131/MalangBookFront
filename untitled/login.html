@@ -70,18 +70,27 @@
             <div class="login-content">
                 <form class="login-form" id="login-login" action="/login">
                     <div><p>아이디<input name="id" type="text" class="login-input"></p></div>
-                    <div><p>비밀번호<input name="password" type="password" class="login-input"></p></div>
+                    <div><p>비밀번호<input name="pw" type="password" class="login-input"></p></div>
                     <input name="submit" class="" id="submit" value="이메일 로그인" type="submit"><br>
                     <div class="login-facebook">페이스북 로그인</div>
                 </form>
                 <form class="find-id" id="login-findID" action="">
-
+                    <div><p>이메일<input type="email" name="email" class="id-input"></p></div>
+                    <input name="submit" type="submit" value="이메일로 확인">
                 </form>
                 <form class="find-pw" id="login-findPW" action="">
-
+                    <div><p>아이디<input type="text" name="id" class="id-input"></p></div>
+                    <div><p>이메일<input type="email" name="email" class="email-input"></p></div>
+                    <input name="submit" type="submit" value="이메일로 인증번호 보내기">
                 </form>
+                <h1>회원가입</h1>
                 <form class="sign-up" id="login-signUP" action="">
-
+                    <div><p>아이디<input type="text" name="id"></p></div>
+                    <div><p>비밀번호<input type="password" name="pw"></p></div>
+                    <div><p>E-MAIL<input type="email" name="email" ></p></div>
+                    <p><input type="checkbox" name="policy">&nbsp;이용약관에 동의합니다</p>
+                    <div id="policy-view">이용 약관</div>
+                    <div><input type="submit"></div>
                 </form>
             </div>
         </div>
