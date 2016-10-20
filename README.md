@@ -27,5 +27,6 @@ made by 2016 chojaeho
   - login-signUP
     - name : id, type : text, function : 아이디
     - name : pw, type : password, function : 비밀번호
+    - name : pwc, type : password, function : 비밀번호 확인
     - name : email, type : email, function : 이메일
     - name : policy, type : checkbox, function : 이용약관 동의(체크되있으면 동의)

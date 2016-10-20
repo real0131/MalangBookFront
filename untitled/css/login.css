@@ -61,3 +61,7 @@
     width: 70%;
     margin: 0 auto;
 }
+.login-form-label{
+    text-align: right;
+    float: left;
+}
