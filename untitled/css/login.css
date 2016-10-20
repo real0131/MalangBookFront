@@ -1,7 +1,4 @@
 .login{
-    width: 500px;
-    height:500px;
-    text-align: center;
 }
 .login-input{
     width: 357px;
@@ -14,4 +11,20 @@
 .login-facebook{
     width: 100%;
     line-height: 48px;
+}
+.login-nav{
+    margin-bottom: 20px;
+}
+.login-nav-ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style: none;
+}
+.login-nav-ul > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login-nav-li{
+    float: left;
 }
