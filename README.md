@@ -3,7 +3,7 @@
 made by 2016 chojaeho
 
 #document
- * newbook.html (form name : book-form)
+ * newbook.html (form name : book-form, method : POST)
   - name : category, type : NaN, function : 대분류, 소분류
   - name : page-limit, type : number, function : 페이지제한 (0 : 제한 없음)
   - name : chapter-limit, type : number, function : 단원 제한 (0 : 제한 없음)
@@ -16,15 +16,15 @@ made by 2016 chojaeho
   - name : delete, type: radio, function : 관리자 다른사람이 쓴글 삭제 (accept : 허용 , deny : 비허용)
   - name : font, type : select, optionValue : NaN function : 글꼴 설정
  * login.html (form name : login-form, login-findID, login-findPW, login-signUP)
-  - login-form
+  - login-form (method : POST)
     - name : id, type : text, function : 로그인 아이디
     - name : pw, type : password , function : 로그인 비밀번호
-  - login-findId
+  - login-findId (method : POST)
     - name : email, type : email, function : 이메일주소
-  - login-findPW
+  - login-findPW (method : POST)
     - name : id, type : text, function : 사용자 아이디
     - name : email, type : email, function : 사용자 이메일
-  - login-signUP
+  - login-signUP (method : POST)
     - name : id, type : text, function : 아이디
     - name : pw, type : password, function : 비밀번호
     - name : pwc, type : password, function : 비밀번호 확인
