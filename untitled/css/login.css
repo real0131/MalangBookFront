@@ -13,6 +13,7 @@
     line-height: 48px;
 }
 .login-nav{
+    height: 90px;
     margin-bottom: 20px;
 }
 .login-nav-ul{
@@ -21,10 +22,23 @@
     height: 100%;
     list-style: none;
 }
-.login-nav-ul > li {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 .login-nav-li{
+    background-color: #989898;
+    text-align: center;
     float: left;
+    width: 213px;
+    height: 90px;
+    line-height: 90px;
+    border-left: solid 2px #939393;
+    color: white;
+}
+.login-nav-cancel{
+    float: left;
+    width: 96px;
+    height: 90px;
+    background-color: #ef5350;
+}
+.login-nav-p{
+    margin: 0;
+    font-size: 32px;
 }
