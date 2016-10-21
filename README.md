@@ -3,6 +3,8 @@
 made by 2016 chojaeho
 
 #document
+ * main.html (form name : search, method : GET)
+  - name : search, type : search, function : 검색
  * newbook.html (form name : book-form, method : POST)
   - name : category, type : NaN, function : 대분류, 소분류
   - name : page-limit, type : number, function : 페이지제한 (0 : 제한 없음)
@@ -29,4 +31,6 @@ made by 2016 chojaeho
     - name : pw, type : password, function : 비밀번호
     - name : pwc, type : password, function : 비밀번호 확인
     - name : email, type : email, function : 이메일
+    - name : nickname, type : text, function : 닉네임
+    - name : pwquiz, type : select, function : 비밀번호 찾기퀴즈 지정 (option : ...)
     - name : policy, type : checkbox, function : 이용약관 동의(체크되있으면 동의)

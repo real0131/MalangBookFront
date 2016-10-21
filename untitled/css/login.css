@@ -1,4 +1,5 @@
 label{
+    color: #8d8d8d;
     font-size: 24px;
 }
 .login{
@@ -6,12 +7,24 @@ label{
     width: 950px;
 }
 .login-input{
+    color: #8d8d8d;
+    width: 357px;
+    height: 48px;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    font-size: 24px;
+    padding-left: 12px;
+    margin: 12px 0px 12px 0px;
+}
+.signup-input{
+    color: #939393;
     width: 357px;
     height: 48px;
     border: 1px solid #989898;
     border-radius: 6px;
     font-size: 14px;
     padding-left: 12px;
+    margin: 12px 0px 12px 0px;
 }
 .login-facebook{
     width: 100%;
@@ -20,7 +33,7 @@ label{
 .login-nav{
     display: inline-block;
     height: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 .login-nav-ul{
     margin: 0;
@@ -53,7 +66,7 @@ label{
 }
 .login-nav-p{
     margin: 0;
-    font-size: 32px;
+    font-size: 24px;
 }
 .login-content{
     display: inline-block;
@@ -68,6 +81,10 @@ label{
     text-align: right;
     float: left;
 }
+.login-form-label > p{
+    padding: 12px 0px 12px 0px;
+}
 .login-form-select{
     width: 357px;
+    margin: 12px 0px 12px 0px;
 }
