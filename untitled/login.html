@@ -41,8 +41,8 @@
                         <p><label for="login-login-pw">비밀번호</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input name="user[id]" type="text" class="login-input" id="login-login-id">
-                        <input name="user[pw]" type="password" class="login-input" id="login-login-pw">
+                        <input name="user[id]" type="text" class="login-input" id="login-login-id" required>
+                        <input name="user[pw]" type="password" class="login-input" id="login-login-pw" required>
                     </div>
                     <div class="login-form-submit">
                         <input name="submit" class="" id="submit" value="이메일 로그인" type="submit"><br>
@@ -54,7 +54,7 @@
                         <p><label>이메일</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input name="user[email]" type="email" class="login-input">
+                        <input name="user[email]" type="email" class="login-input" required>
                     </div>
                     <div class="login-form-submit">
                         <input name="submit" type="submit" value="이메일로 확인">
@@ -66,8 +66,8 @@
                         <p><label>이메일</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input type="text" name="user[id]" class="login-input">
-                        <input type="email" name="user[email]" class="login-input">
+                        <input type="text" name="user[id]" class="login-input" required>
+                        <input type="email" name="user[email]" class="login-input" required>
                     </div>
                     <div class="login-form-submit">
                         <input name="submit" type="submit" value="이메일로 인증번호 보내기">
@@ -85,11 +85,11 @@
                         <p><label>질문 답변</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input type="text" name="user[id]" class="signup-input">
-                        <input type="password" name="user[pw]" class="signup-input">
-                        <input type="password" name="user[pwc]" class="signup-input">
-                        <input type="email" name="user[email]" class="signup-input">
-                        <input type="text" name="user[nickname]" class="signup-input">
+                        <input type="text" name="user[id]" class="signup-input" required>
+                        <input type="password" name="user[pw]" class="signup-input" required>
+                        <input type="password" name="user[pwc]" class="signup-input" required>
+                        <input type="email" name="user[email]" class="signup-input" required>
+                        <input type="text" name="user[nickname]" class="signup-input" required>
                         <select form="login-signUP" name="user[pwquiz]" class="login-form-select">
                             <option selected="selected" value="quiz[1]">졸업한 고등학교 이름은?</option>
                             <option value="quiz[2]">졸업한 고등학교 이름은?</option>
@@ -105,7 +105,7 @@
                             <option value="quiz[12]">좋아하는 가수는?</option>
                             <option value="quiz[13]">내 별명은?</option>
                         </select>
-                        <input type="text" name="pwanswer" class="signup-input">
+                        <input type="text" name="pwanswer" class="signup-input" required>
                     </div>
                     <div class="login-form-submit">
                         <p><input type="checkbox" name="policy">&nbsp;이용약관에 동의합니다</p>
