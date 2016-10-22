@@ -41,8 +41,8 @@
                         <p><label for="login-login-pw">비밀번호</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input name="id" type="text" class="login-input" id="login-login-id">
-                        <input name="pw" type="password" class="login-input" id="login-login-pw">
+                        <input name="user[id]" type="text" class="login-input" id="login-login-id">
+                        <input name="user[pw]" type="password" class="login-input" id="login-login-pw">
                     </div>
                     <div class="login-form-submit">
                         <input name="submit" class="" id="submit" value="이메일 로그인" type="submit"><br>
@@ -54,7 +54,7 @@
                         <p><label>이메일</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input type="email" name="email" class="login-input">
+                        <input name="user[email]" type="email" class="login-input">
                     </div>
                     <div class="login-form-submit">
                         <input name="submit" type="submit" value="이메일로 확인">
@@ -66,15 +66,15 @@
                         <p><label>이메일</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input type="text" name="id" class="login-input">
-                        <input type="email" name="email" class="login-input">
+                        <input type="text" name="user[id]" class="login-input">
+                        <input type="email" name="user[email]" class="login-input">
                     </div>
                     <div class="login-form-submit">
                         <input name="submit" type="submit" value="이메일로 인증번호 보내기">
                     </div>
                 </form>
                 <form class="login-form" method="POST" id="login-signUP" action="" style="display: none;">
-                    <h1>회원가입</h1>
+                    <p id="signup-title">회원가입</p>
                     <div class="login-form-label">
                         <p><label>아이디</label></p>
                         <p><label>비밀번호</label></p>
@@ -85,13 +85,25 @@
                         <p><label>질문 답변</label></p>
                     </div>
                     <div class="login-form-input">
-                        <input type="text" name="id" class="signup-input">
-                        <input type="password" name="pw" class="signup-input">
-                        <input type="password" name="pwc" class="signup-input">
-                        <input type="email" name="email" class="signup-input">
-                        <input type="text" name="nickname" class="signup-input">
-                        <select form="login-signUP" name="pwquiz" class="login-form-select">
-                            <option selected="selected">졸업한 고등학교 이름은?</option>
+                        <input type="text" name="user[id]" class="signup-input">
+                        <input type="password" name="user[pw]" class="signup-input">
+                        <input type="password" name="user[pwc]" class="signup-input">
+                        <input type="email" name="user[email]" class="signup-input">
+                        <input type="text" name="user[nickname]" class="signup-input">
+                        <select form="login-signUP" name="user[pwquiz]" class="login-form-select">
+                            <option selected="selected" value="quiz[1]">졸업한 고등학교 이름은?</option>
+                            <option value="quiz[2]">졸업한 고등학교 이름은?</option>
+                            <option value="quiz[3]">졸업한 중학교 이름은?</option>
+                            <option value="quiz[4]">졸업한 초등학교 이름은?</option>
+                            <option value="quiz[5]">졸업한 대학교 이름은?</option>
+                            <option value="quiz[6]">졸업한 대학원 이름은?</option>
+                            <option value="quiz[7]">아버지 성함은?</option>
+                            <option value="quiz[8]">어머니 성함은?</option>
+                            <option value="quiz[9]">좋아하는 색은?</option>
+                            <option value="quiz[10]">좋아하는 숫자는?</option>
+                            <option value="quiz[11]">사는 동네 이름?</option>
+                            <option value="quiz[12]">좋아하는 가수는?</option>
+                            <option value="quiz[13]">내 별명은?</option>
                         </select>
                         <input type="text" name="pwanswer" class="signup-input">
                     </div>

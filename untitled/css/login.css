@@ -33,7 +33,7 @@ label{
 .login-nav{
     display: inline-block;
     height: 90px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .login-nav-ul{
     margin: 0;
@@ -85,6 +85,12 @@ label{
     padding: 12px 0px 12px 0px;
 }
 .login-form-select{
-    width: 357px;
+    color: #939393;
+    height: 48px;
+    width: 371px;
     margin: 12px 0px 12px 0px;
+}
+#signup-title{
+    font-size: 30pt;
+    color: #535353;
 }
