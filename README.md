@@ -34,5 +34,14 @@ made by 2016 chojaeho
     - name : nickname, type : text, function : 닉네임
     - name : pwquiz, type : select, function : 비밀번호 찾기퀴즈 지정 (option : ...)
     - name : policy, type : checkbox, function : 이용약관 동의(체크되있으면 동의)
+ * mp_setting.html (form name : setting-form)
+  - setting-form (method : POST)
+    - name : setting[id], type: text, function : 아이디
+    - name : setting[pw], type: password, function : 이전비밀번호
+    - name : setting[repw], type: password, function : 새비밀번호
+    - name : setting[repwc], type: password, function : 새비밀번호재입력
+    - name : setting[nickname], type: text, function : 닉네임
+    - name : setting[email], type: email, function :  이메일
+    - name : setting[check], type: number, function : 이메일 인증번호
 #css component
     - title

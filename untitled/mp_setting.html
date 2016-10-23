@@ -22,6 +22,32 @@
         <img class="" src="" alt="">
         <h2 class="title-sub">내 정보 설정</h2>
     </div>
+    <div>
+        <form method="POST" class="" id="setting-form" action="">
+            <div class="form-label">
+                <p><label for="setting-id">아이디</label></p>
+                <p><label for="setting-pw">비밀번호</label></p>
+                <p><label for="setting-repw">비밀번호 수정</label></p>
+                <p><label for="setting-repwc">비밀번호 재입력</label></p>
+                <p><label for="setting-nickname">닉네임</label></p>
+                <p><label for="setting-email">E-MAIL</label></p>
+                <p><label for="setting-checknum">인증번호 입력</label></p>
+            </div>
+            <div class="form-input">
+                <input name="setting[id]" type="text" id="setting-id" class="input-wide">
+                <input name="setting[pw]" type="password" id="setting-pw" class="input-wide">
+                <input name="setting[repw]" type="password" id="setting-repw" class="input-wide">
+                <input name="setting[repwc]" type="password" id="setting-repwc" class="input-wide">
+                <input name="setting[nickname]" type="text" id="setting-nickname"class="input-wide">
+                <div class="form-input-with-btn"><input name="setting[email]" type="email" id="setting-email" class="input-wide"></div>
+                <div class="form-input-with-btn"><input name="setting[check]" type="number" id="setting-checknum" class="input-wide"></div>
+            </div>
+            <div class="form-submit">
+                <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
+                <div style="float: right; font-size: 18px;" class="btn-cancel">취소</div>
+            </div>
+        </form>
+    </div>
 </main>
 <footer>
 
