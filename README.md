@@ -34,3 +34,5 @@ made by 2016 chojaeho
     - name : nickname, type : text, function : 닉네임
     - name : pwquiz, type : select, function : 비밀번호 찾기퀴즈 지정 (option : ...)
     - name : policy, type : checkbox, function : 이용약관 동의(체크되있으면 동의)
+#css component
+    - title
