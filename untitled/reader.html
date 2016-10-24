@@ -6,6 +6,104 @@
     <title>Title</title>
 </head>
 <body>
+<header>
+    <div class="header-wrapper">
+        <div class="logo-wrapper">
+            <img src="" alt="main-logo">
+        </div>
+        <div class="search-container">
+            <div class="search-wrapper">
+                <form method="GET" id="search">
+                    <input type="image" src="image/ic_main_search.png" name="Submit" value="Submit" id="search-icon" alt="search">
+                    <input type="search" name="search" placeholder="책 검색" id="search-input">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="nav-wrapper">
+        <ul class="nav-ul">
+            <li class="nav-li">
+                <a href="#" style="color: white">홈</a>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">소설</a>
+                <ul>
 
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">동화</a>
+                <ul>
+
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">시</a>
+                <ul>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="title">
+        <h1 class="title-main">글 읽기</h1>
+    </div>
+    <div class="book-container">
+        <div class="side-menu-left">
+            <div class="bookmark" id="menu-report">
+                <p>신고</p>
+            </div>
+        </div>
+        <div class="book">
+
+        </div>
+        <div class="side-menu-right">
+            <div class="bookmark" id="menu-bookmark">
+                <p>책갈피</p>
+            </div>
+            <div class="bookmark" id="menu-participate">
+                <p>참여</p>
+            </div>
+        </div>
+    </div>
+    <div class="reply-container">
+        <p>사족</p>
+        <div class="reply-form-wrapper">
+            <form id="reply-form" method="POST" action="">
+                <div>
+                    <textarea form="reply-form">
+
+                    </textarea>
+                </div>
+                <div>
+                    <input type="submit" value="등록">
+                    <p>200자 제한</p>
+                    <!--<p>0/200</p> TODO:글자 제한표시-->
+                </div>
+            </form>
+        </div>
+        <div class="reply-list-wrapper">
+            <div class="reply">
+                <div class="reply-profile">
+                    <img src="{% %}" alt="">
+                </div>
+                <div class="reply-content">
+                    <p><!--{% 이름 %}님의 댓글--></p>
+                    <p><!--{% 댓글 내용 %}--></p>
+                </div>
+                <div class="reply-info">
+                    <p><!-- {% 시간 %}-->&nbsp; <a href="#">신고</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>

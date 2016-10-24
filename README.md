@@ -3,8 +3,12 @@
 made by 2016 chojaeho
 
 #document
- * main.html (form name : search, method : GET)
-  - name : search, type : search, function : 검색
+ * main.html (form name : search, side-login-form)
+  - search (method : GET)
+    - name : search, type : search, function : 검색
+  - side-login-form (method : POST)
+    - name : user[id], type : text, function : 아이디
+    - name : user[pw], type : password, function : 비밀번호
  * newbook.html (form name : book-form, method : POST)
   - name : category, type : NaN, function : 대분류, 소분류
   - name : page-limit, type : number, function : 페이지제한 (0 : 제한 없음)
