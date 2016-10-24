@@ -13,56 +13,6 @@ input::-webkit-search-cancel-button {
 }
 /*모바일 웹*/
 @media only screen and (max-device-width: 480px){
-    .search-container{
-        display: inline-block;
-    }
-    .header-wrapper{
-        display: inline-block;
-        text-align: center;
-        height: 100%;
-        width: 80%;
-        line-height: 100px;
-        padding: 0 10% 0 10%;
-    }
-    .header-wrapper > div{
-        display: inline-block;
-    }
-    .logo-wrapper{
-        display: block;
-        float: left;
-    }
-    .search-container{
-        height: 44px;
-        width: auto;
-        padding:  28px 0 28px 0;
-
-    }
-    .search-wrapper{
-        height: 40px;
-        width: 720px;
-        display: inline-block;
-        border: 2px solid #989898;
-        margin:  8px 0 8px 0;
-        border-radius: 10px;
-    }
-    #search-input{
-        padding: 0;
-        font-size: 1.2rem;
-        border: none;
-        height: 24px;
-        width: 80%;
-        line-height: 24px;
-        overflow-x: hidden;
-        margin:  8px 0 8px 0;
-        outline: none;
-        float: left;
-    }
-    #search-icon{
-        margin: 5px 16px 5px 16px;
-        height: 18px;
-        line-height: 18px;
-        float: left;
-    }
     /*nav*/
     nav{
         width: 100%;
@@ -95,66 +45,19 @@ input::-webkit-search-cancel-button {
 /*PC웹*/
 @media screen and (min-device-width: 480px)
 {
-    .header-wrapper{
-        display: inline-block;
-        text-align: center;
-        height: 100%;
-        width: 80%;
-        line-height: 100px;
-        padding: 0 10% 0 10%;
-    }
-    .header-wrapper > div{
-        display: inline-block;
-    }
-    .logo-wrapper{
-        display: block;
-        float: left;
-    }
-    .search-container{
-        height: 44px;
-        width: auto;
-        padding:  28px 0 28px 0;
 
-    }
-    .search-wrapper{
-        height: 40px;
-        width: 720px;
-        display: inline-block;
-        border: 2px solid #d2d2d2;
-        margin:  8px 0 8px 0;
-        border-radius: 10px;
-    }
-    #search-input{
-        padding: 0;
-        font-size: 1.2rem;
-        border: none;
-        height: 24px;
-        width: 80%;
-        line-height: 24px;
-        overflow-x: hidden;
-        margin:  8px 0 8px 0;
-        outline: none;
-        float: left;
-    }
-    input{
-    }
-    #search-icon{
-        margin: 13px 16px 13px 16px;
-        height: 18px;
-        float: left;
-    }
     /*nav*/
     nav{
         width: 100%;
         height: 40px;
         text-align: center;
-        background-color: #a4d175;
     }
     .nav-wrapper{
         display: inline-block;
         width: 70%;
         height: 100%;
         line-height: 40px;
+        background-color: #a4d175;
     }
     .nav-ul{
         margin: 0;
