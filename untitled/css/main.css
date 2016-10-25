@@ -1,5 +1,15 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 /*임시 폰트*/
+/***************TEMP********************/
+.main-content{
+    float: left;
+}
+.aside{
+    float: right;
+}
+
+/***************TEMP********************/
+
 body{
     width: 100%;
     height: 100%;
