@@ -29,7 +29,8 @@ made by 2016 chojaeho
     - name : email, type : email, function : 이메일주소
   - login-findPW (method : POST)
     - name : id, type : text, function : 사용자 아이디
-    - name : email, type : email, function : 사용자 이메일
+    - name : pwquiz, type : select, function : 사용자 비밀번호 찾기 퀴즈지정
+    - name : pwans, type : text, function : 사용자 비밀번호 퀴즈 답변
   - login-signUP (method : POST)
     - name : id, type : text, function : 아이디
     - name : pw, type : password, function : 비밀번호
