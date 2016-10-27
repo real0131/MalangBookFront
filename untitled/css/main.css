@@ -2,9 +2,15 @@
 /*임시 폰트*/
 /***************TEMP********************/
 .main-content{
+    display: inline-block;
+    width: 65%;
+    height: 100%;
     float: left;
 }
 .aside{
+    display: inline-block;
+    width: 35%;
+    height: 100%;
     float: right;
 }
 
