@@ -23,6 +23,7 @@ main{
     height: 200px;
     background-image: url("../image/bg_main_checkja.png"); /*DIRECTORY CAUTION*/
     background-size:100% 273px;
+    overflow: hidden;
 }
 .main-library-header{
     height: 16px;
