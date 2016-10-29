@@ -76,6 +76,8 @@ input::-webkit-search-cancel-button {
         margin-bottom: 8px;
     }
     #search-input{
+        margin-top: 8px;
+        margin-bottom: 8px;
         color: #d2d2d2;
         float: right;
         display: inline-block;
