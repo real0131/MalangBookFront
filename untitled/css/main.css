@@ -12,6 +12,13 @@ main{
     top: 0;
     left: 0;
 }
+.library-short{
+    width: 100%;
+    background-image: url("../image/bg_main_checkja.png"); /*DIRECTORY CAUTION*/
+}
+
+
+
 aside{
     float: right;
     display: inline-block;
