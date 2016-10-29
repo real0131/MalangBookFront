@@ -12,12 +12,31 @@ main{
     top: 0;
     left: 0;
 }
+.main-library{
+    height: 300px;
+    margin-bottom: 40px;
+}
 .library-short{
     width: 100%;
+    height: 273px;
     background-image: url("../image/bg_main_checkja.png"); /*DIRECTORY CAUTION*/
+    background-size:100% 273px;
 }
-
-
+.main-library-header{
+    height: 16px;
+    margin-bottom: 16px ;
+}
+.main-library-title{
+    font-size: 18px;
+    float: left;
+    margin-left: 17px ;
+}
+.main-library-more{
+    float: right;
+    margin-right: 17px;
+    font-size: 16px;
+    color: #696969;
+}
 
 aside{
     float: right;
