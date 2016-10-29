@@ -16,9 +16,11 @@ main{
     height: 300px;
     margin-bottom: 40px;
 }
+
 .library-short{
-    width: 100%;
-    height: 273px;
+    padding:36px 53px 36px 44px ;
+    width: 90%;
+    height: 200px;
     background-image: url("../image/bg_main_checkja.png"); /*DIRECTORY CAUTION*/
     background-size:100% 273px;
 }
@@ -37,7 +39,24 @@ main{
     font-size: 16px;
     color: #696969;
 }
-
+.library-book-wrapper{
+    text-align: center;
+    float: left;
+    margin-right: 5%;
+}
+.library-book-wrapper:nth-last-child(1){
+    margin: 0;
+}
+.book-babchim{
+    width: 171px;
+    height: 17px;
+    background-image: url("../image/bg_main_babchim.png");
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.book-img{
+    width: 121px;
+    height:179px;
+}
 aside{
     float: right;
     display: inline-block;
