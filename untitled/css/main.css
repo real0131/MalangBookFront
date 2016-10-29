@@ -1,17 +1,78 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 /*임시 폰트*/
 /***************TEMP********************/
+main{
+    margin-top: 35px;
+}
 .main-content{
     display: inline-block;
-    width: 65%;
+    width: 70%;
     height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+aside{
+    float: right;
+    display: inline-block;
+    width: 28%;
+    height: 100%;
+}
+aside > div{
+    float: right;
+}
+.side-login{
+    border: 2px solid #efefef;
+    background-color: #f7f7f7;
+    width: 288px;
+    height: 150px;
+}
+.side-login-wrapper{
+    font-size: 12px;
+    padding: 9px;
+}
+.form-label{
+    text-align: right;
     float: left;
 }
-.aside{
+.main-login-input{
+    width: 137px;
+    height: 23px;
+    border: 1px solid #989898;
+    border-radius: 2px;
+    margin: 8px;
+}
+p.main-form-p > label{
+    color: #535353;
     display: inline-block;
-    width: 35%;
-    height: 100%;
-    float: right;
+}
+.main-login-submit{
+    height: 23px;
+    width: 62px;
+    color: white;
+    background-color: #535353;
+    border: 1px solid #989898;
+    border-radius: 2px;
+}
+.side-login-menu{
+    background-color: white;
+    height: 44px;
+    width: 288px;
+    font-size: 14px;
+}
+.side-login-menu > div{
+    float: left;
+    display: inline-block;
+}
+.login-menu{
+    padding: 16px 24px 16px 24px;
+}
+.login-menu-border{
+    padding: 0;
+    width: 1px;
+    height: 13px;
+    background-color: #9a9a9a;
+    margin: 16px 0px 15px 0px;
 }
 
 /***************TEMP********************/

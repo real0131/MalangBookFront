@@ -58,8 +58,10 @@ input::-webkit-search-cancel-button {
         padding-bottom: 31px;
     }
     .search-container{
+        float: left;
         display: inline-block;
         height: 38px;
+        margin-left: 40px;
         padding-top:31px;
         padding-bottom: 31px;
     }
@@ -108,8 +110,11 @@ input::-webkit-search-cancel-button {
         color: white;
     }
     .nav-ul > li {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .nav-li:nth-child(1){
+        margin-left: 40px;
     }
     .nav-li{
         float: left;
