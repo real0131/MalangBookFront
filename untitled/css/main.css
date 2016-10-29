@@ -76,6 +76,7 @@ p.main-form-p > label{
     margin: 16px 0px 15px 0px;
 }
 .side-write{
+    margin-bottom: 13px;
     text-align: center;
     font-size: 18px;
     color: white;
@@ -85,11 +86,67 @@ p.main-form-p > label{
     line-height: 44px;
     border-radius: 2px;
 }
+/*******************TODO:img 마진주면 밀림 ********************/
 .side-write-img{
     margin: 8px 14px 8px 0px;
 }
 .side-write-link{
 }
+
+.side-top{
+    border: 2px solid #efefef;
+    width: 288px;
+    height: 395px;
+}
+.side-top-header{
+    background-color: #f7f7f7;
+    width: 288px;
+    height: 51px;
+    line-height: 51px;
+    font-size: 18px;
+}
+.side-top-content{
+    width: 288px;
+    height: 304px;
+    font-size: 16px;
+    padding: 14px 0px 20px 14px;
+}
+.side-top-ul{
+    margin: 0;
+    padding: 0;
+}
+.side-top-ul > li{
+    height: 17px;
+    list-style-type: none;
+}
+.rank{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #a4d175;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #95be6a;
+    float: left;
+    margin-right: 15px;
+}
+.top-title{
+    display: block;
+    height: 17px;
+    width: 215px;
+    line-height: 17px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.side-top-li{
+    margin-bottom: 11px;
+}
+.side-top-li:nth-last-child(1){
+    margin: 0;
+}
+
 /***************TEMP********************/
 
 body{
