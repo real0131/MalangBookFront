@@ -43,9 +43,48 @@ input::-webkit-search-cancel-button {
 }
 
 /*PC웹*/
-@media screen and (min-device-width: 480px)
+@media screen and (min-device-width: 481px)
 {
-
+    /*header*/
+    .header-wrapper{
+        display: inline-block;
+        height: 100px;
+        width: 70%;
+    }
+    .logo-wrapper{
+        display: inline-block;
+        float: left;
+        padding-top:31px;
+        padding-bottom: 31px;
+    }
+    .search-container{
+        display: inline-block;
+        height: 38px;
+        padding-top:31px;
+        padding-bottom: 31px;
+    }
+    .search-wrapper{
+        padding-right: 3px;
+        padding-left: 3px;
+        width: 537px;
+        height: 34px;
+        border-radius: 8px;
+        border: 2px solid #d2d2d2;
+    }
+    #search-icon{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    #search-input{
+        color: #d2d2d2;
+        float: right;
+        display: inline-block;
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+        outline: none;
+        border: 0;
+    }
     /*nav*/
     nav{
         width: 100%;
