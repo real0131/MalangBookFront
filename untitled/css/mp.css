@@ -1,0 +1,47 @@
+/**** for all mp page ****/
+main{
+    width: 67%;
+    height: 100%;
+    margin: 0 auto;
+}
+.title{
+    border-bottom: 3px solid #989898;
+}
+/**** mypage.html ****/
+.menu-wrapper{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    width: 100%;
+    margin: 0 auto;
+}
+.menu{
+    width: 480px;
+    height: 472px;
+    float: left;
+}
+.background-1{
+    background-image: url("../image/bg_mypage_profile.png");
+}
+.background-2{
+    background-image: url("../image/bg_mypage_participatee.png");
+}
+.background-3{
+    background-image: url("../image/bg_mypage_saved.png");
+}
+.background-4{
+    background-image: url("../image/bg_mypage_log.png");
+}
+.menuicon_container{
+    display: inline-block;
+    width: 281px;
+    height: 281px;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.img-menuIcon{
+
+}
