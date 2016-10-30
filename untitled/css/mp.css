@@ -73,14 +73,15 @@ main{
 .form-label{
     float: left;
     text-align: right;
+    margin-right: 25px;
 }
 .form-label > p{
-    height: 50px;
-    line-height: 50px;
+    height: 48px;
+    line-height: 48px;
     margin: 0px 0px 24px 0px;
 }
 label{
-    height: 50px;
+    height: 48px;
 }
 .input-wide{
     width: 357px;
@@ -88,6 +89,7 @@ label{
     border: 1px solid #989898;
     border-radius: 6px;
     margin: 12px 0px 12px 0px;
+    padding: 0px 0px 0px 12px;
 }
 .login-form-input{
     text-align: center;
