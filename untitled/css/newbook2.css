@@ -1,8 +1,46 @@
+.title{
+    border-bottom: 1px solid #989898;
+}
 .book{
-    width: 540px;
-    height: 620px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 42px auto 0 auto;
+    width: 950px;
+    height: 1240px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     border-top: 1px solid #989898;
     border-bottom: 1px solid #989898;
     padding-bottom: 98px;
+}
+.book-main-title{
+    display: inline-block;
+    height: 115px;
+    width: 710px;
+    text-align: center;
+    font-size: 36px;
+    margin: 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.book-sub-title{
+    width: 363px;
+    height: 61px;
+}
+.book-author{
+    width: 358px;
+    height: 61px;
+}
+.form-main-title{
+    font-size: 36px;
+    padding-left: 40px;
+    height: 115px;
+    width: 100%;
+    border: none;
+}
+.form-sub-title{
+    font-size: 18px;
+    width: 363px;
+    height: 61px;
+}
+.form-author{
+    font-size: 18px;
+    width: 358px;
+    height: 61px;
 }
