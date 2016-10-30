@@ -66,3 +66,30 @@ main{
     margin-top: 15px;
     font-size: 18px;
 }
+/**** mp-setting ****/
+#setting-form{
+    width: 70%;
+}
+.form-label{
+    float: left;
+    text-align: right;
+}
+.form-label > p{
+    height: 50px;
+    line-height: 50px;
+    margin: 0px 0px 24px 0px;
+}
+label{
+    height: 50px;
+}
+.input-wide{
+    width: 357px;
+    height: 46px;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    margin: 12px 0px 12px 0px;
+}
+.login-form-input{
+    text-align: center;
+}
+
