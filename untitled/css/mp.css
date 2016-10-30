@@ -68,7 +68,16 @@ main{
 }
 /**** mp-setting ****/
 #setting-form{
+    margin-top: 55px;
+    width: 100%;
+}
+.input-area-wrapper{
     width: 70%;
+}
+.form-submit{
+    margin-top: 70px;
+    width: 100%;
+    height: 47px;
 }
 .form-label{
     float: left;
@@ -91,7 +100,54 @@ label{
     margin: 12px 0px 12px 0px;
     padding: 0px 0px 0px 12px;
 }
+.input-short{
+    height: 46px;
+    width: 206px;
+    border: 1px solid #989898;
+    border-radius: 6px;
+    margin: 12px 0px 12px 0px;
+    padding: 0px 0px 0px 12px;
+}
 .login-form-input{
     text-align: center;
+}
+.btn-form{
+    margin-left: 11px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 137px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 6px;
+}
+.btn-submit{
+    background-color: #737373;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 137px;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 60px;
+    border:none;
+    border-radius: 6px;
+}
+.btn-submit:hover{
+    cursor : pointer;
+}
+.btn-cancel{
+    background-color: #ef5350;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 137px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 6px;
+    margin-right: 14px;
 }
 
