@@ -6,10 +6,128 @@ main{
     border-bottom: 3px solid #989898;
 }
 .book-container{
-    width: 90%;
-    height: 753px;
-    margin: 63px auto 0px auto;
+    display: table;
+    background-color: #2b3641;
     border: 3px solid #989898;
-    background-color: #31333a;
+    height: 753px;
+    width: 90%;
+    margin: 63px auto 0 auto;
+    padding: 38px 48px 42px 42px;
+}
+.side-menu-left{
+    display: table-cell;
+    float: left;
+    position: relative;
+    left: -118px;
+    width: 118px;
+}
+.side-menu-right{
+    display: table-cell;
+    float: right;
+    width: 118px;
+    position: relative;
+    right: -118px;
+    top: 0;
+}
+.book{
+    display: table-cell;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+.reply-container{
+    color: #535353;
+    width: 880px;
+    margin: 48px auto 0 auto;
+}
+.reply-form-wrapper{
+    width: 100%;
+    height: 150px;
+}
+#reply-form{
+    width: 100%;
+    height: 150px;
+}
+#reply-form-title{
+    margin: auto 0 13px 0;
+    font-size: 24px;
+}
+.textarea-wrapper{
+    display: inline-block;
+    margin-right: 25px;
+}
+.submit-wrapper{
+    text-align: center;
+    display: inline-block;
+    width: 138px;
+    height: 100%;
+}
+textarea{
+    height: 133px;
+    width: 671px;
+    resize: none;
+    border-radius: 6px;
+}
+.btn-reply{
+    font-size: 18px;
+    width: 138px;
+    height: 48px;
+    border-radius: 6px;
+    color: white;
+    background-color: #535353;
+    border:none;
+}
+.reply-list-wrapper{
+    height: 100%;
+}
+.reply{
+    width: 100%;
+    height: 143px;
+    background-color: #efeff0;
+}
+.reply-profile-wrapper{
+    display: table;
+    width: 132px;
+    height: 100%;
+    float: left;
+}
+.reply-profile{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.reply-profile-img{
+    width: 78px;
+    height: 78px;
+    border-radius: 78px;
+    background-color: #ef5350;
+}
+.reply-content-wrapper{
+    display: table;
+    width: 550px;
+    height: 100%;
+}
+.reply-content{
+    display: table-cell;
+    vertical-align: middle;
+}
+.reply-content-who{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.reply-content-content{
+    font-size: 16px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.reply-info{
+    display: inline-block;
+    height: 100%;
+    width: 160px;
+    float: right;
 }
