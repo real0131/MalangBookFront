@@ -150,4 +150,24 @@ label{
     border-radius: 6px;
     margin-right: 14px;
 }
-
+/** mp_save **/
+.library{
+    padding:36px 53px 36px 44px ;
+    width: 90%;
+    background-image: url("../image/bg_social_checkjang.png"); /*DIRECTORY CAUTION*/
+    background-size:100% 273px;
+    overflow: hidden;
+}
+.part-save-main-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.menu-img{
+    float: right;
+    cursor: pointer;
+}
+.title-side-menu{
+    float: right;
+    width: 312px;
+    height: 44px;
+}

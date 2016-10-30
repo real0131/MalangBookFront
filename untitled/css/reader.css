@@ -1,0 +1,15 @@
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+.title{
+    border-bottom: 3px solid #989898;
+}
+.book-container{
+    width: 90%;
+    height: 753px;
+    margin: 63px auto 0px auto;
+    border: 3px solid #989898;
+    background-color: #31333a;
+    overflow: hidden;
+}
