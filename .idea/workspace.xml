@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="827eab24-1f94-4de1-964a-d95fc98f7f53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/mp.css" afterPath="$PROJECT_DIR$/untitled/css/mp.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/newbook2.css" afterPath="$PROJECT_DIR$/untitled/css/newbook2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/js/reader.js" afterPath="$PROJECT_DIR$/untitled/js/reader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/mp_participate.html" afterPath="$PROJECT_DIR$/untitled/mp_participate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/mp_save.html" afterPath="$PROJECT_DIR$/untitled/mp_save.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/newBook2.html" afterPath="$PROJECT_DIR$/untitled/newBook2.html" />
     </list>
     <ignored path="malang.iws" />
@@ -49,8 +45,8 @@
           <file leaf-file-name="newBook2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/untitled/newBook2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+                <state relative-caret-position="765">
+                  <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -241,8 +237,8 @@
           <file leaf-file-name="newbook2.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/untitled/css/newbook2.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
-                  <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+                <state relative-caret-position="266">
+                  <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -552,12 +548,12 @@
       <workItem from="1477294637389" duration="3842000" />
       <workItem from="1477553954218" duration="1441000" />
       <workItem from="1477615454652" duration="3112000" />
-      <workItem from="1477742195451" duration="60241000" />
+      <workItem from="1477742195451" duration="60557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172240000" />
+    <option name="totallyTimeSpent" value="172556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1932" height="1057" extended-state="0" />
@@ -1041,8 +1037,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/newBook2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="78" column="52" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+        <state relative-caret-position="765">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1057,8 +1053,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/css/newbook2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
