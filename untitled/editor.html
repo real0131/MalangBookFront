@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
     <link rel="stylesheet" type="text/css" href="css/editor.css"/>
     <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-    <script>tinymce.init({ selector:'textarea' });</script>
+    <script>tinymce.init({ selector:'textarea', width : 640});</script>
 </head>
 <body>
 <header>
@@ -57,15 +57,15 @@
 </nav>
 <main>
     <div class="content-wrapper">
-        <form id="editor" action="" onsubmit="editorSubmit()" method="POST">
-            <input type="text" name="" placeholder="제목" class="editor-title"><br>
-            <div class="editor-main">
-                <textarea form="editor" name="" placeholder="여기에다 입력해주세요..."></textarea><br>
-            </div>
-            <p><b style="font-size: 1.2rem">태그</b> 입력 (최대 10개)</p>
-            <input type="text"><br>
-            <input type="submit" value="submit">
-        </form>
+        <div class="book">
+            <form id="editor" action="" onsubmit="editorSubmit()" method="POST">
+                <input type="text" name="" placeholder="제목" class="editor-title"><br>
+                <div class="editor-main">
+                    <textarea form="editor" name="" placeholder="여기에다 입력해주세요..." ></textarea><br>
+                </div>
+                <input type="submit" value="submit">
+            </form>
+        </div>
     </div>
 </main>
 <footer>
