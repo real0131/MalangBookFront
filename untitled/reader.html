@@ -76,13 +76,12 @@
         <div class="reply-form-wrapper">
             <form id="reply-form" method="POST" action="">
                 <div class="textarea-wrapper">
-                    <textarea form="reply-form">
-                    </textarea>
+                    <textarea form="reply-form" id="reply-textarea"></textarea>
                 </div>
                 <div class="submit-wrapper">
                     <input type="submit" value="등록" class="btn-reply">
                     <span>200자 제한</span>
-                    <!--<p>0/200</p> TODO:글자 제한표시-->
+                    <span id="reply-textare-length">0/200</span>
                 </div>
             </form>
         </div>
@@ -117,5 +116,7 @@
     <!--temp-->
 
 </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/reader.js" type="text/javascript"></script>
 </body>
 </html>
