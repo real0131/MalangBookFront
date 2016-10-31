@@ -10,8 +10,12 @@
     border-bottom: 1px solid #989898;
     padding-bottom: 98px;
 }
+.book-title{
+    margin-top: 76px;
+    width: 100%;
+}
 .book-main-title{
-    display: inline-block;
+    border: 2px solid #e4e4e4;
     height: 115px;
     width: 710px;
     text-align: center;
@@ -20,27 +24,76 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .book-sub-title{
+    border: 2px solid #e4e4e4;
     width: 363px;
     height: 61px;
+    margin: 45px auto 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .book-author{
+    border: 2px solid #e4e4e4;
+    float: right;
+    margin-top: 33px;
     width: 358px;
     height: 61px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .form-main-title{
+    text-indent: 40px;
     font-size: 36px;
-    padding-left: 40px;
     height: 115px;
     width: 100%;
     border: none;
+    outline: none;
 }
 .form-sub-title{
+    text-indent: 20px;
     font-size: 18px;
     width: 363px;
     height: 61px;
+    border: none;
+    outline: none;
 }
 .form-author{
+    text-indent: 20px;
     font-size: 18px;
     width: 358px;
     height: 61px;
+    border: none;
+    outline: none;
+}
+.book-img{
+    position: relative;
+    top: 640px;
+    display: inline-block;
+    width: 380px;
+    height: 159px;
+    border: 2px solid #e4e4e4;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.book-img-menu{
+    text-align: center;
+    font-size: 18px;
+    color: #646464;
+    display: inline-block;
+    float: left;
+    width: 187px;
+    height: 155px;
+}
+.book-img-border{
+    margin:5px 0 4px 0;
+    float: left;
+    width: 2px;
+    height: 150px;
+    background-color: #e4e4e4;
+}
+.book-img-wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.book-img-wrapper > span{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
