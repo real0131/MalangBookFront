@@ -46,8 +46,7 @@ made by 2016 chojaeho
     - name : setting[repw], type: password, function : 새비밀번호
     - name : setting[repwc], type: password, function : 새비밀번호재입력
     - name : setting[nickname], type: text, function : 닉네임
-    - name : setting[email], type: email, function :  이메일
-    - name : setting[check], type: text, function : 이메일 인증번호
+    - name : setting[profiles], type: file, function :  프로필 파일
 #css component
   * /*DIRECTORY CAUTION*/
     - background-image등 경로 꼬일 수 있는거에다가 주석으로 달아놓음
