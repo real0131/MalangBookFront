@@ -113,6 +113,22 @@ input::-webkit-search-cancel-button {
         margin-left: 20px;
         margin-right: 20px;
     }
+    /** 드롭다운 **/
+    .nav-wrapper ul ul{
+        display: none;
+        padding: 0;
+        position:absolute;
+        list-style: none;
+        border: 2px solid #939393;
+        background-color: white;
+    }
+    .nav-wrapper ul li:active ul{
+        color: black;
+        display: block;
+    }
+    .nav-wrapper ul ul li{
+        float:none;
+    }
     .nav-li:nth-child(1){
         margin-left: 40px;
     }
