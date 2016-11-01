@@ -87,6 +87,7 @@ textarea{
     width: 100%;
     height: 143px;
     background-color: #efeff0;
+    margin-bottom: 6px;
 }
 .reply-profile-wrapper{
     display: table;
@@ -126,8 +127,12 @@ textarea{
     word-break: break-all;
 }
 .reply-info{
-    display: inline-block;
-    height: 100%;
-    width: 160px;
+    margin-top: 33px;
+    margin-right: 19px;
+    text-align: right;
+    display: table-cell;
     float: right;
+    position: relative;
+    top: -143px;
+    color: #9c9c9c;
 }
