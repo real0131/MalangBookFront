@@ -108,6 +108,11 @@ label{
     margin: 12px 0px 12px 0px;
     padding: 0px 0px 0px 12px;
 }
+#setting-file{
+    width: 347px;
+    height: 48px;
+    margin: 12px 0px 12px 0px;
+}
 .login-form-input{
     text-align: center;
 }
