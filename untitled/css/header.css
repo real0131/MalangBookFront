@@ -111,18 +111,19 @@ input::-webkit-search-cancel-button {
     }
     .nav-ul > li {
         margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
     /** 드롭다운 **/
     .nav-wrapper ul ul{
         display: none;
         padding: 0;
+        width: 100px;
         position:absolute;
         list-style: none;
         border: 2px solid #939393;
         background-color: white;
     }
-    .nav-wrapper ul li:active ul{
+    .nav-wrapper ul li:hover ul{
         color: black;
         display: block;
     }
@@ -134,5 +135,8 @@ input::-webkit-search-cancel-button {
     }
     .nav-li{
         float: left;
+    }
+    ul > .sub-menu-li{
+        border-bottom: 1px solid #dadada ;
     }
 }
