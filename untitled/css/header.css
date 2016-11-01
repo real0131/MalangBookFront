@@ -116,6 +116,7 @@ input::-webkit-search-cancel-button {
     /** 드롭다운 **/
     .nav-wrapper ul ul{
         display: none;
+        z-index: 9999;
         padding: 0;
         width: 100px;
         position:absolute;

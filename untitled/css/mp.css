@@ -66,6 +66,9 @@ main{
     margin-top: 15px;
     font-size: 18px;
 }
+a{
+    color: white;
+}
 /**** mp-setting ****/
 #setting-form{
     margin-top: 55px;
