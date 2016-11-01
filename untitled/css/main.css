@@ -221,58 +221,40 @@ option{
     background-color: white;
     color: black;
 }
-
-.accept{
-    text-align: center;
-    width: 120px;
-    height: 49px;
-    line-height: 49px;
-    font-size: 18px;
+input[type=radio]{
+    display: none;
+}
+.radio-label{
     float: left;
-    border: 1px solid #989898;
 }
-.accept::before{
-    width: 120px;
-    height: 49px;
-    line-height: 49px;
-    font-size: 18px;
-}
-.accept:active{
-
-}
-.deny{
-    float: left;
+.radio-label {
+    display: inline-block;
+    width: 60px;
+    background-color: #f3f3f3;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: normal;
     text-align: center;
-    width: 120px;
-    height: 49px;
-    line-height: 49px;
-    font-size: 18px;
-    border: 1px solid #989898;
+    text-shadow: none;
+    padding: 6px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition:         all 0.1s ease-in-out;
 }
-.deny::before {
-    width: 120px;
-    height: 49px;
-    line-height: 49px;
-    font-size: 18px;
-    border: 1px solid #989898;
-}
-.deny:active{
-
-}
-input[type=radio]
-{
-    visibility: hidden;
-    margin: 0;
-    position: relative;
-    left: -244px;
-    width: 122px;
-    height:50px;
-}
-input[type=radio]:checked
-{
-    background-color: #646464;
+.radio-input:checked + .radio-label {
+    background-color: #ffffff;
 }
 
+.radio-label:hover {
+    cursor: pointer;
+}
+
+.radio-label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.radio-label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
 .btn-submit{
     width: 144px;
     height: 47px;
@@ -305,8 +287,6 @@ input[type=number]
     width: 232px;
     height:48px;
 }
-
-
 /*모바일 웹*/
 @media only screen and (max-device-width: 480px){
     /*main*/

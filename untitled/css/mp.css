@@ -172,6 +172,25 @@ label{
     overflow: hidden;
     margin: 0 auto;
 }
+.library-row{
+    display: inline-block;
+    width: 100%;
+}
+.library-book-wrapper{
+    text-align: center;
+    float: left;
+    margin-right: 5%;
+}
+.book-babchim{
+    width: 171px;
+    height: 17px;
+    background-image: url("../image/bg_main_babchim.png");
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.book-img{
+    width: 121px;
+    height:179px;
+}
 .part-save-main-wrapper{
     width: 70%;
     height: 100%;
