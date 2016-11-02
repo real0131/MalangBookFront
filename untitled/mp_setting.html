@@ -68,6 +68,22 @@
     </div>
     <div>
         <form method="POST" class="" id="setting-form" action="">
+            <div class="profile-setting">
+                <div id="profile-img-wrapper">
+                        <img src="" onerror="this.src='image/ic_profile_error.png'" id="profile-img">
+                </div>
+                <div id="profile-wrapper">
+                    <div>
+                        <div id="profile-wrapper-info">
+                            <div style="font-size: 36px;">현재 프로필 사진</div>
+                            <div style="font-size: 18px;">EDIT MY PROFILE IMAGE</div>
+                        </div>
+                        <div>
+                            <div class="btn-change"><label for="profile-img-change">변경</label><input type="file" id="profile-img-change" style="display: none;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="input-area-wrapper">
                 <div class="form-label">
                     <p style="margin-top: 12px;"><label for="setting-id">아이디</label></p>
@@ -96,5 +112,7 @@
 <footer>
 
 </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/setting.js" type="text/javascript"></script>
 </body>
 </html>

@@ -228,7 +228,42 @@ label{
     line-height: 43px;
     cursor: pointer;
 }
-
+.profile-setting{
+    width: 80%;
+    height: 300px; /*TODO:임시 크기*/
+    margin: 0 auto;
+}
+#profile-img-wrapper {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+#profile-img{
+    width: 175px;
+    height: 175px;
+}
+#profile-wrapper{
+    float: left;
+}
+#profile-wrapper-info{
+    width: 275px;
+    border-bottom: 1px solid #989898;
+    color: #535353;
+    margin-bottom: 20px;
+}
+.btn-change{
+    width: 127px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #737373;
+    border-radius: 48px;
+}
+#profile-img-change{
+    color: white;!important;
+}
 /** mp_activity **/
 .activity-label{
     float: left;
