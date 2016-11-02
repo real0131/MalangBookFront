@@ -241,6 +241,7 @@ label{
 #profile-img{
     width: 175px;
     height: 175px;
+    border-radius: 175px;
 }
 #profile-wrapper{
     float: left;
@@ -263,6 +264,13 @@ label{
 }
 #profile-img-change{
     color: white;!important;
+}
+#book-cover{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /** mp_activity **/
 .activity-label{
