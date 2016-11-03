@@ -81,11 +81,11 @@
             <p>추천 받은 횟수 : </p>
         </div>
         <div class="activity-data">
-            <p id="activity-makebook"><!--{{ TODO: 활동 데이터 : 책만든횟수 }}-->개</p>
-            <p id="activity-participate"><!--{{ TODO: 참여한 횟수> }}-->개</p>
-            <p id="activity-makewrite"><!--{{ TODO: 쓴 줄의 수 }}-->줄</p>
-            <p id="activity-writereply"><!--{{ TODO: 쓴 사족> }}-->번</p>
-            <p id="activity-recommend"><!--{{ TODO: 추천 받은 횟수 }}-->번</p>
+            <p id="activity-makebook"><!--{{ TODO: 활동 데이터 : 책만든횟수 }}--> <%= user.u_bookopen %>개</p>
+            <p id="activity-participate"><!--{{ TODO: 참여한 횟수> }}--><%= user.u_bookjoin %>개</p>
+            <p id="activity-makewrite"><!--{{ TODO: 쓴 줄의 수 }}--><%= user.u_bookopen %>줄</p>
+            <p id="activity-writereply"><!--{{ TODO: 쓴 사족> }}--><%= user.u_reply %>번</p>
+            <p id="activity-recommend"><!--{{ TODO: 추천 받은 횟수 }}--><%= user.u_recommend %>번</p>
         </div>
         <!-- 활동기록 데이터 -->
     </div>
