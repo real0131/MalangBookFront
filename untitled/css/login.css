@@ -3,9 +3,11 @@ label{
     font-size: 24px;
 }
 .login{
+    position: relative;
     display: inline-block;
     width: 950px;
     background-color: white;
+    z-index: 9999;
 }
 .login-input{
     color: #8d8d8d;
@@ -94,4 +96,26 @@ label{
 #signup-title{
     font-size: 30pt;
     color: #535353;
+}
+.btn-submit{
+    width: 144px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    background-color: #737373;
+    color: white;
+}
+.btn-submit:hover{
+    cursor : pointer;
+}
+#policy-view{
+    width: 144px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    background-color: #737373;
+    color: white;
+}
+#policy-view:hover{
+    cursor : pointer;
 }

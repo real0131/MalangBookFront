@@ -45,7 +45,7 @@
                         <input name="user[pw]" type="password" class="login-input" id="login-login-pw" required>
                     </div>
                     <div class="login-form-submit">
-                        <input name="submit" class="" id="submit" value="이메일 로그인" type="submit"><br>
+                        <input name="submit" class="btn-submit" id="submit" value="이메일 로그인" type="submit"><br>
                     </div>
                 </form>
                 <form class="login-form" method="POST" id="login-findID" action="/findID" style="display: none;">
@@ -56,7 +56,7 @@
                         <input name="user[email]" type="email" class="login-input" required>
                     </div>
                     <div class="login-form-submit">
-                        <input name="submit" type="submit" value="이메일로 확인">
+                        <input name="submit" type="submit" value="이메일로 확인" class="btn-submit">
                     </div>
                 </form>
                 <form class="login-form" method="POST" id="login-findPW" action="/findPW" style="display: none;">
@@ -84,7 +84,7 @@
                         <input type="text" name="user[pwans]" class="login-input" required>
                     </div>
                     <div class="login-form-submit">
-                        <input name="submit" type="submit" value="비밀번호 찾기">
+                        <input name="submit" type="submit" value="비밀번호 찾기" class="btn-submit">
                     </div>
                 </form>
                 <form class="login-form" method="POST" id="login-signUP" action="/register" style="display: none;">
@@ -121,9 +121,7 @@
                         <input type="text" name="user[pwans]" class="signup-input" required>
                     </div>
                     <div class="login-form-submit">
-                        <p><input type="checkbox" name="policy">&nbsp;이용약관에 동의합니다</p>
-                        <div id="policy-view">이용 약관</div>
-                        <div><input type="submit"></div>
+                        <div><input type="submit" class="btn-submit"></div>
                     </div>
                 </form>
             </div>
