@@ -74,7 +74,7 @@
         <h2 class="title-sub">내 정보 설정</h2>
     </div>
     <div>
-        <form method="POST" class="" id="setting-form" action="">
+        <form method="POST" enctype="multipart/form-data" class="" id="setting-form" action="">
             <div class="profile-setting">
                 <div id="profile-img-wrapper">
                     <!-- TODO:setting img 아래 img태그 src참조 -->
@@ -87,7 +87,7 @@
                             <div style="font-size: 18px;">EDIT MY PROFILE IMAGE</div>
                         </div>
                         <div>
-                            <div class="btn-change"><label for="profile-img-change">변경</label><input name="setting[profile]" type="file" id="profile-img-change" style="display: none;" accept="image/*"></div>
+                            <div class="btn-change"><label for="profile-img-change">변경</label><input name="recfile" type="file" id="profile-img-change" style="display: none;" accept="image/*"></div>
                         </div>
                     </div>
                 </div>
