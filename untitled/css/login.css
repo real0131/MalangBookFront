@@ -75,6 +75,7 @@ label{
     display: inline-block;
     width: 950px;
     text-align: center;
+    margin-bottom: 50px;
 }
 .login-form{
     width: 70%;

@@ -152,6 +152,7 @@ p.main-form-p > label{
 }
 
 .side-top{
+    background-color: white;
     border: 2px solid #efefef;
     width: 288px;
     height: 395px;
