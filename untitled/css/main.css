@@ -309,6 +309,23 @@ input[type=number]
     width: 232px;
     height:48px;
 }
+#category{
+    float: left;
+    height: 205px;
+    width: 234px;
+    overflow-y: auto;
+}
+.category-img{
+    height: 205px;
+    line-height: 205px;
+    margin: 0 24px 0 24px;
+    float: left;
+}
+#category-sub{
+    height: 205px;
+    width: 234px;
+    float: left;
+}
 /*모바일 웹*/
 @media only screen and (max-device-width: 480px){
     /*main*/

@@ -70,7 +70,17 @@
         <form action="" method="POST" id="book-form">
             <div>
                 <p><label for="category">분류</label></p>
-                <input id="category" name="category">
+                <select id="category" name="category" size="3">
+                    <option value="novel">소설</option>
+                    <option value="fairytale">동화</option>
+                    <option value="poem">시</option>
+                </select>
+                <div class="category-img">
+                    <img src="image/ic_makingBook_next.png">
+                </div>
+                <select id="category-sub" name="category">
+
+                </select>
             </div>
             <div>
                 <p><label for="page-limit">페이지 제한</label></p>
@@ -146,5 +156,7 @@
 </main>
 <footer>
 </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/newbook.js" type="text/javascript"></script>
 </body>
 </html>
