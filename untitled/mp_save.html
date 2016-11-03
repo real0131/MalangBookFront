@@ -75,22 +75,21 @@
     </div>
     <div class="part-save-main-wrapper">
         <div class="menu-upper">
-            <div class="menu-upper-option" style="background-image: url('image/btn_participate_wangul_tle.png');">완결</div>
-            <div class="menu-upper-option" style="background-image: url('image/btn_participate_mewangul_tle.png');">미완결</div>
+            <div class="menu-upper-option" id="btn-finish" style="background-image: url('image/btn_participate_wangul_tle.png');">완결</div>
+            <div class="menu-upper-option" id="btn-pending" style="background-image: url('image/btn_participate_mewangul_tle.png');">미완결</div>
         </div>
-        <div class="library-container">
+        <div class="library-container" id="library-finish">
             <div class="library">
                 <div class="library-row">
                     <div class="library-book-wrapper">
-                        <!-- TODO:herf부분에 책링크 img src에 이미지 -->
                         <a href="#">
-                        <img src="" alt="book" class="book-img">
+                            <img src="" alt="book" class="book-img">
                         </a>
                         <div class="book-babchim" ></div>
                     </div>
                     <div class="library-book-wrapper">
                         <a href="#">
-                        <img src="" alt="book" class="book-img">
+                            <img src="" alt="book" class="book-img">
                         </a>
                         <div class="book-babchim"></div>
                     </div>
@@ -102,7 +101,32 @@
                     </div>
                     <div class="library-book-wrapper">
                         <a href="#">
-                        <img src="" alt="book" class="book-img">
+                            <img src="" alt="book" class="book-img">
+                        </a>
+                        <div class="book-babchim"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- hidden -->
+        <div class="library-container" id="library-pending" style="display: none;">
+            <div class="library">
+                <div class="library-row">
+                    <div class="library-book-wrapper">
+                        <a href="#">
+                            <img src="" alt="book" class="book-img">
+                        </a>
+                        <div class="book-babchim"></div>
+                    </div>
+                    <div class="library-book-wrapper">
+                        <a href="#">
+                            <img src="" alt="book" class="book-img">
+                        </a>
+                        <div class="book-babchim"></div>
+                    </div>
+                    <div class="library-book-wrapper">
+                        <a href="#">
+                            <img src="" alt="book" class="book-img">
                         </a>
                         <div class="book-babchim"></div>
                     </div>
@@ -121,5 +145,7 @@
 </main>
 <footer>
 </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/part_save.js" type="text/javascript"></script>
 </body>
 </html>
