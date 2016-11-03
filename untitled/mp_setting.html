@@ -77,7 +77,8 @@
         <form method="POST" class="" id="setting-form" action="">
             <div class="profile-setting">
                 <div id="profile-img-wrapper">
-                        <img src="" onerror="this.src='image/ic_profile_error.png'" id="profile-img">
+                    <!-- TODO:setting img 아래 img태그 src참조 -->
+                    <img src="<!--이미지 -->" onerror="this.src='image/ic_profile_error.png'" id="profile-img">
                 </div>
                 <div id="profile-wrapper">
                     <div>
@@ -101,11 +102,12 @@
                     <p><label for="setting-file">이미지</label></p>
                 </div>
                 <div class="form-input">
-                    <input name="setting[id]" type="text" id="setting-id" class="input-wide" disabled>
+                    <!-- TODO:placeholder 비어있는 부분 (id는 id값 닉네임은 nickname값-->
+                    <input name="setting[id]" type="text" id="setting-id" class="input-wide" disabled placeholder="">
                     <input name="setting[pw]" type="password" id="setting-pw" class="input-wide">
                     <input name="setting[repw]" type="password" id="setting-repw" placeholder="영어,숫자(4~16자)" class="input-wide">
                     <input name="setting[repwc]" type="password" id="setting-repwc" placeholder="영어,숫자(4~16자)" class="input-wide">
-                    <input name="setting[nickname]" type="text" id="setting-nickname" placeholder="ex)김용사" class="input-wide" disabled>
+                    <input name="setting[nickname]" type="text" id="setting-nickname" placeholder="" class="input-wide" disabled>
                     <input name="profile" type="file" id="setting-file">
                 </div>
             </div>

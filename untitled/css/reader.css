@@ -37,6 +37,8 @@ main{
     background-color: #ffffff;
     width: 100%;
     height: 100%;
+    padding: 25px 17px 25px 17px;
+    overflow-y: scroll;
 }
 .reply-container{
     color: #535353;
