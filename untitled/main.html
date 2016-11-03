@@ -7,8 +7,129 @@
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
 </head>
 <body>
+<div class="login-view" style="display: none;">
+    <a href="#" class="login-notcancel">
+        <section>
+            <div class="login">
+                <div class="login-nav">
+                    <ul class="login-nav-ul">
+                        <li class="login-nav-li" onclick="list_1()" id="list-1" style="background-color: white; color: #535353;">
+                            <p class="login-nav-p">로그인</p>
+                        </li>
+                        <li class="login-nav-li" onclick="list_2()" id="list-2">
+                            <p class="login-nav-p">ID찾기</p>
+                        </li>
+                        <li class="login-nav-li" onclick="list_3()" id="list-3">
+                            <p class="login-nav-p">PW찾기</p>
+                        </li>
+                        <li class="login-nav-li" onclick="list_4()" id="list-4">
+                            <p class="login-nav-p">회원가입</p>
+                        </li>
+                        <li class="login-nav-cancel">
+                            <img src="image/ic_login_cancel.png" alt="button-cancel" class="login-nav-cancel-img">
+                        </li>
+                    </ul>
+                </div>
+                <div class="login-content">
+                    <form class="login-form" method="POST" id="login-login" action="/login" style="display: inline-block;">
+                        <div class="login-form-label">
+                            <p><label for="login-login-id">아이디</label></p>
+                            <p><label for="login-login-pw">비밀번호</label></p>
+                        </div>
+                        <div class="login-form-input">
+                            <input name="user[id]" type="text" class="login-input" id="login-login-id" required>
+                            <input name="user[pw]" type="password" class="login-input" id="login-login-pw" required>
+                        </div>
+                        <div class="login-form-submit">
+                            <input name="submit" class="" id="submit" value="이메일 로그인" type="submit"><br>
+                        </div>
+                    </form>
+                    <form class="login-form" method="POST" id="login-findID" action="/findID" style="display: none;">
+                        <div class="login-form-label">
+                            <p><label>이메일</label></p>
+                        </div>
+                        <div class="login-form-input">
+                            <input name="user[email]" type="email" class="login-input" required>
+                        </div>
+                        <div class="login-form-submit">
+                            <input name="submit" type="submit" value="이메일로 확인">
+                        </div>
+                    </form>
+                    <form class="login-form" method="POST" id="login-findPW" action="/findPW" style="display: none;">
+                        <div class="login-form-label">
+                            <p><label>아이디</label></p>
+                            <p><label>비밀번호 찾기 질문</label></p>
+                            <p><label>질문 답변</label></p>
+                        </div>
+                        <div class="login-form-input">
+                            <input type="text" name="user[id]" class="login-input" required>
+                            <select form="login-findPW" name="user[pwquiz]" class="login-form-select" required>
+                                <option selected="selected" value="1">졸업한 고등학교 이름은?</option>
+                                <option value="2">졸업한 중학교 이름은?</option>
+                                <option value="3">졸업한 초등학교 이름은?</option>
+                                <option value="4">졸업한 대학교 이름은?</option>
+                                <option value="5">졸업한 대학원 이름은?</option>
+                                <option value="6">아버지 성함은?</option>
+                                <option value="7">어머니 성함은?</option>
+                                <option value="8">좋아하는 색은?</option>
+                                <option value="9">좋아하는 숫자는?</option>
+                                <option value="10">사는 동네 이름?</option>
+                                <option value="11">좋아하는 가수는?</option>
+                                <option value="12">내 별명은?</option>
+                            </select>
+                            <input type="text" name="user[pwans]" class="login-input" required>
+                        </div>
+                        <div class="login-form-submit">
+                            <input name="submit" type="submit" value="비밀번호 찾기">
+                        </div>
+                    </form>
+                    <form class="login-form" method="POST" id="login-signUP" action="/register" style="display: none;">
+                        <p id="signup-title">회원가입</p>
+                        <div class="login-form-label">
+                            <p><label>아이디</label></p>
+                            <p><label>비밀번호</label></p>
+                            <p><label>비밀번호 확인</label></p>
+                            <p><label>E-MAIL</label></p>
+                            <p><label>닉네임</label></p>
+                            <p><label>비밀번호 찾기 질문</label></p>
+                            <p><label>질문 답변</label></p>
+                        </div>
+                        <div class="login-form-input">
+                            <input type="text" name="user[id]" class="signup-input" placeholder="영어,숫자(4~16자)" required>
+                            <input type="password" name="user[pw]" class="signup-input" placeholder="영어,숫자(4~16자)" required>
+                            <input type="password" name="user[pwc]" class="signup-input" placeholder="영어,숫자(4~16자)" required>
+                            <input type="email" name="user[email]" class="signup-input" placeholder="~@~.com" required>
+                            <input type="text" name="user[nickname]" class="signup-input" placeholder="ex)김용사" required>
+                            <select form="login-signUP" name="user[pwquiz]" class="login-form-select">
+                                <option selected="selected" value="1">졸업한 고등학교 이름은?</option>
+                                <option value="2">졸업한 중학교 이름은?</option>
+                                <option value="3">졸업한 초등학교 이름은?</option>
+                                <option value="4">졸업한 대학교 이름은?</option>
+                                <option value="5">졸업한 대학원 이름은?</option>
+                                <option value="6">아버지 성함은?</option>
+                                <option value="7">어머니 성함은?</option>
+                                <option value="8">좋아하는 색은?</option>
+                                <option value="9">좋아하는 숫자는?</option>
+                                <option value="10">사는 동네 이름?</option>
+                                <option value="11">좋아하는 가수는?</option>
+                                <option value="12">내 별명은?</option>
+                            </select>
+                            <input type="text" name="user[pwans]" class="signup-input" required>
+                        </div>
+                        <div class="login-form-submit">
+                            <p><input type="checkbox" name="policy">&nbsp;이용약관에 동의합니다</p>
+                            <div id="policy-view">이용 약관</div>
+                            <div><input type="submit"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </a>
+</div>
 <header>
     <div class="header-wrapper">
         <div class="logo-wrapper">
@@ -158,15 +279,15 @@
                     </form>
                 </div>
                 <div class="side-login-menu">
-                    <div class="login-menu">
+                    <div class="main-login-menu" id="login-menu-signup">
                         회원가입
                     </div>
                     <div class="login-menu-border"></div>
-                    <div class="login-menu">
+                    <div class="main-login-menu" id="login-menu-findid">
                         ID찾기
                     </div>
                     <div class="login-menu-border"></div>
-                    <div class="login-menu">
+                    <div class="main-login-menu" id="login-menu-findpw">
                         PW찾기
                     </div>
                     <!--TODO: onclick function으로 숫자값넣어서 show지점 정하기-->
@@ -201,5 +322,8 @@
     </main>
     <footer>
     </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/login.js"></script>
 </body>
 </html>

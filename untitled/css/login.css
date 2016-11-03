@@ -5,6 +5,7 @@ label{
 .login{
     display: inline-block;
     width: 950px;
+    background-color: white;
 }
 .login-input{
     color: #8d8d8d;
