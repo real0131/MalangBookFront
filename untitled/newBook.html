@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/newbook2.css"/>
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
     <title>Title</title>
 </head>
@@ -65,79 +65,44 @@
     </div>
 </nav>
 <main>
-    <div class="content-wrapper" >
-        <p id="make-form-title">책 편찬하기</p>
-        <form action="" method="POST" id="book-form">
-            <div>
-                <p><label for="category">분류</label></p>
-                <input id="category" name="category">
+    <div class="content-wrapper">
+        <div class="title">
+            <h1 class="title-main">책 편찬하기</h1>
+        </div>
+        <form action="" id="book-form-2" method="POST">
+            <div class="book">
+                <div class="book-title">
+                    <div class="book-main-title"><input name="newbook[maintitle]" type="text" placeholder="책의 제목을 입력해주세요." class="form-main-title" required></div>
+                    <div class="book-sub-title"><input name="newbook[subtitle]" type="text" placeholder="소제목을 입력해주세요." class="form-sub-title"></div>
+                    <div class="book-author"><input name="newbook[author]" type="text" placeholder="저자를 입력해주세요." class="form-author"></div>
+                </div>
+                <div class="book-img">
+                    <div class="book-img-menu">
+                        <div>표지 이미지 선택</div>
+                        <div class="book-img-wrapper">
+                            <span>
+                                <label for="input-book-image">
+                                    <img src="image/ic_makingBook2_image.png" alt="making-book-image">
+                                </label>
+                                <input name="newbook[image]" type="file" style="display: none;" id="input-book-image" accept="image/*">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="book-img-border"></div>
+                    <div class="book-img-menu">
+                        <div>색상 선택</div>
+                        <div class="book-img-wrapper">
+                            <span>
+                                <label for="input-book-color">
+                                    <img src="image/ic_makingBook2_color.png" alt="making-book-color">
+                                </label>
+                                <input name="newbook[color]" type="color" style="display: none;" id="input-book-color">
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p><label for="page-limit">페이지 제한</label></p>
-                <input type="number" id="page-limit" name="page-limit" value="0">
-            </div>
-            <div>
-                <p><label for="chapter-limit">단원 제한</label></p>
-                <input type="number" id="chapter-limit" name="chapter-limit" value="0">
-            </div>
-            <div>
-                <p><label for="overlap">중복 참여 가능 여부</label></p>
-                <select form="book-form" name="overlap" id="overlap">
-                    <option value="yes">예</option>
-                    <option value="no" selected="selected">아니오</option>
-                </select>
-            </div>
-            <div>
-                <p><label for="series">시리즈 여부</label></p>
-                <select form="book-form" name="series" id="series">
-                    <option value="yes">예</option>
-                    <option value="no" selected="selected">아니오</option>
-                </select>
-            </div>
-            <div>
-                <p><label for="private">비공개 여부</label></p>
-                <select form="book-form" name="private" id="private">
-                    <option value="yes">예</option>
-                    <option value="no" selected="selected">아니오</option>
-                </select>
-            </div>
-            <div>
-                <p>우클릭 설정</p>
-                <input class="radio-input" type="radio" id="right-click-accept" name="right-click" value="accept" checked="checked">
-                <div class="radio-label"><label for="right-click-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="right-click-deny" name="right-click" value="deny">
-                <div class="radio-label"><label for="right-click-deny">비허용</label></div>
-            </div>
-            <div>
-                <p>공유 설정</p>
-                <input class="radio-input" type="radio" id="share-accept" name="share" class="share" value="accept" checked="checked">
-                <div class="radio-label"><label for="share-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="share-deny" name="share" class="share" value="deny">
-                <div class="radio-label"><label for="share-deny">비허용</label></div>
-            </div>
-            <div>
-                <p>&lt;관리자&gt;다른사람이 쓴 글 수정</p>
-                <input class="radio-input" type="radio" id="modify-accept" name="modify" value="accept" checked="checked">
-                <div class="radio-label"><label for="modify-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="modify-deny" name="modify" value="deny">
-                <div class="radio-label"><label for="modify-deny">비허용</label></div>
-            </div>
-            <div>
-                <p>&lt;관리자&gt;다른사람이 쓴 글 삭제</p>
-                <input class="radio-input" type="radio" id="delete-accept" name="delete" value="accept" checked="checked">
-                <div class="radio-label"><label for="delete-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="delete-deny" name="delete" value="deny">
-                <div class="radio-label"><label for="delete-deny">비허용</label></div>
-            </div>
-
-            <div>
-                <p><label for="font">글꼴 지정</label></p>
-                <select form="book-form" name="font" id="font">
-                    <option value="type1">타입1</option>
-                    <option value="type2">타입2</option>
-                </select>
-            </div>
-            <div style="display: block;">
+            <div style="display: block;" class="form-submit">
                 <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
                 <div style="float: right; font-size: 18px;" class="btn-cancel">취소</div>
             </div>
@@ -145,6 +110,18 @@
     </div>
 </main>
 <footer>
+    <br>
+    <br>
+    <br><br><br>
+    <br>
+    <br><br>
+    <br><br><br><br><br><br><br>
 </footer>
-    </body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/newbook.js" type="text/javascript"></script>
+</body>
 </html>
+
+
+
+
