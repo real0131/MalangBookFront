@@ -70,12 +70,12 @@
         <div class="title">
             <h1 class="title-main">책 편찬하기</h1>
         </div>
-        <form action="" id="book-form-2">
+        <form action="" id="book-form-2" method="POST">
             <div class="book">
                 <div class="book-title">
-                    <div class="book-main-title"><input type="text" placeholder="책의 제목을 입력해주세요." class="form-main-title" required></div>
-                    <div class="book-sub-title"><input type="text" placeholder="소제목을 입력해주세요." class="form-sub-title"></div>
-                    <div class="book-author"><input type="text" placeholder="저자를 입력해주세요." class="form-author"></div>
+                    <div class="book-main-title"><input name="newbook[maintitle]" type="text" placeholder="책의 제목을 입력해주세요." class="form-main-title" required></div>
+                    <div class="book-sub-title"><input name="newbook[subtitle]" type="text" placeholder="소제목을 입력해주세요." class="form-sub-title"></div>
+                    <div class="book-author"><input name="newbook[author]" type="text" placeholder="저자를 입력해주세요." class="form-author"></div>
                 </div>
                 <div class="book-img">
                     <div class="book-img-menu">
@@ -85,7 +85,7 @@
                                 <label for="input-book-image">
                                     <img src="image/ic_makingBook2_image.png" alt="making-book-image">
                                 </label>
-                                <input type="file" style="display: none;" id="input-book-image" accept="image/*">
+                                <input name="newbook[image]" type="file" style="display: none;" id="input-book-image" accept="image/*">
                             </span>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                                 <label for="input-book-color">
                                     <img src="image/ic_makingBook2_color.png" alt="making-book-color">
                                 </label>
-                                <input type="color" style="display: none;" id="input-book-color">
+                                <input name="newbook[color]" type="color" style="display: none;" id="input-book-color">
                             </span>
                         </div>
                     </div>

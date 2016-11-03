@@ -21,6 +21,12 @@ made by 2016 chojaeho
   - name : modify, type: radio, function : 관리자 다른사람이 쓴글 수정 (accept : 허용 , deny : 비허용)
   - name : delete, type: radio, function : 관리자 다른사람이 쓴글 삭제 (accept : 허용 , deny : 비허용)
   - name : font, type : select, optionValue : NaN function : 글꼴 설정
+ * newBook2.html (form name : book-form-2" method : POST)
+  - name : newbook[maintitle] type : text function : 메인제목
+  - name : newbook[subtitle] type : text function : 소제목
+  - name : newbook[author] type : text function : 저자
+  - name : newbook[image] type : file function : 책 이미지
+  - name : newbook[color] type : color function : 책 색깔
  * login.html (form name : login-form, login-findID, login-findPW, login-signUP)
   - login-form (method : POST)
     - name : id, type : text, function : 로그인 아이디
