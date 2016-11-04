@@ -58,3 +58,7 @@ function readURL(input) {
         reader.readAsDataURL(input.files[0]);
     }
 }
+function Submit() {
+    /* 저 함수 안에다가 newbook2링크 넣으셈*/
+    location.replace('');
+}

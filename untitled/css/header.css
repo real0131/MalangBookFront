@@ -11,6 +11,9 @@ input::-webkit-search-decoration,
 input::-webkit-search-cancel-button {
     display: none;
 }
+.sub-menu-li > a{
+    color: black;
+}
 /*모바일 웹*/
 @media only screen and (max-device-width: 480px){
     /*header*/

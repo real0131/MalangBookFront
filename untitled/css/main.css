@@ -73,6 +73,8 @@ body{
     height:179px;
     line-height: 70px;
     background-color: white; /** TODO:temp**/
+    color: black;
+    margin: 0 auto;
 }
 .book-img-none:hover{
     cursor: pointer;

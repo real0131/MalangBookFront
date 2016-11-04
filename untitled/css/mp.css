@@ -284,7 +284,17 @@ label{
     height: 100%;
 }
 /** mp_save mp_participate **/
-
+.book-img-none{
+    width: 121px;
+    height:179px;
+    line-height: 70px;
+    background-color: white; /** TODO:temp**/
+    color: black;
+    margin: 0 auto;
+}
+.book-img-none:hover{
+    cursor: pointer;
+}
 /** mp_activity **/
 .activity-label{
     float: left;
