@@ -76,14 +76,12 @@
         </span>
         <div class="book">
             <!-- TODO:ejs 책내용-->
-            <% data.forEach(function (book, index) { %>
             <div class="page-right">
 
             </div>
             <div class="page-left">
 
             </div>
-            <% });%>
         </div>
         <span class="side-menu-right">
             <div class="bookmark" id="menu-bookmark">
@@ -120,7 +118,6 @@
             </form>
         </div>
         <div class="reply-list-wrapper">
-            <% data.forEach(function (reply, index) { %>
             <div class="reply">
                 <div class="reply-profile-wrapper">
                     <div class="reply-profile">
@@ -138,7 +135,6 @@
                     <div>2016.09.25<!-- {% TODO:댓글 시간 %}--><%= reply.r_create =>&nbsp; <a href="http://도메인/report?book=<%= books.no =>&replyno=<%= reply.no %>">신고<!--TODO:신고 링크 짜기--></a></div>
                 </div>
             </div>
-            <% });%>
     </div>
 </main>
 <footer>
