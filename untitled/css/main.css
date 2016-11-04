@@ -103,6 +103,9 @@ aside > div{
     font-size: 12px;
     padding: 9px;
 }
+.side-signin-wrapper{
+    height: 106px;
+}
 .form-label{
     text-align: right;
     float: left;
@@ -141,6 +144,10 @@ p.main-form-p > label{
 .main-login-menu{
     cursor: pointer;
     padding: 16px 24px 16px 24px;
+}
+.main-signin-menu{
+    cursor: pointer;
+    padding: 16px;
 }
 .login-menu-border{
     padding: 0;
@@ -231,7 +238,17 @@ p.main-form-p > label{
 .login{
     margin-top: 80px;
 }
-
+.signin-profile-img{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#signin-wrapper-info{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
 
 /***************TEMP********************/
 
