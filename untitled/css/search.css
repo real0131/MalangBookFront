@@ -1,0 +1,27 @@
+.search-res-container{
+    width: 100%;
+    height: 200px;
+}
+.search-res-img-wrapper{
+    display: table;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+.search-res-img{
+    width: 200px;
+    height: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.search-res-title{
+    font-size: 36px;
+}
+.search-res-link{
+    color: black;
+}
+.search-res-author{
+    font-size: 24px;
+}
