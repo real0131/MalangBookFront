@@ -146,7 +146,6 @@ p.main-form-p > label{
     padding: 16px 24px 16px 24px;
 }
 .main-signin-menu{
-
     cursor: pointer;
     padding: 16px;
 }
@@ -250,7 +249,6 @@ p.main-form-p > label{
     float: left;
     margin-top: 20px;
 }
-
 /***************TEMP********************/
 
 body{
@@ -406,21 +404,51 @@ input[type=number]
         font-size: 36px;
     }
 }
-@media screen and (max-width: 880px)
-{
 
+@media screen and (max-width: 621px)
+{
+    .library-book-wrapper:nth-child(2){
+        display: none;
+    }
 }
 @media screen and (max-width: 1386px)
 {
-
-}
-@media screen and (max-width: 1352px)
-{
-
+    .library-book-wrapper:nth-child(3){
+        display: none;
+    }
 }
 @media screen and (max-width: 1780px)
 {
-
+    .library-book-wrapper:nth-child(4){
+        display: none;
+    }
+}
+@media screen and (max-width: 1352px)
+{
+    aside{
+        display: none;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .library-book-wrapper:nth-child(4){
+        display: block;
+    }
+    .library-book-wrapper:nth-child(3){
+        display: block;
+    }
+}
+@media screen and (max-width: 1295px)
+{
+    .library-book-wrapper:nth-child(4){
+        display: none;
+    }
+}
+@media screen and (max-width: 974px)
+{
+    .library-book-wrapper:nth-child(3){
+        display: none;
+    }
 }
 
 
