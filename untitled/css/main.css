@@ -146,6 +146,7 @@ p.main-form-p > label{
     padding: 16px 24px 16px 24px;
 }
 .main-signin-menu{
+
     cursor: pointer;
     padding: 16px;
 }
@@ -405,7 +406,21 @@ input[type=number]
         font-size: 36px;
     }
 }
+@media screen and (max-width: 880px)
+{
 
+}
+@media screen and (max-width: 1386px)
+{
 
+}
+@media screen and (max-width: 1352px)
+{
+
+}
+@media screen and (max-width: 1780px)
+{
+
+}
 
 
