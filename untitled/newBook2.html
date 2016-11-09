@@ -70,7 +70,7 @@
         <form action="" method="POST" id="book-form">
             <div>
                 <p><label for="category">분류</label></p>
-                <select id="category" name="category" size="3">
+                <select id="category" name="category" size="3" required>
                     <option value="novel">소설</option>
                     <option value="fairytale">동화</option>
                     <option value="poem">시</option>
@@ -78,63 +78,63 @@
                 <div class="category-img">
                     <img src="image/ic_makingBook_next.png">
                 </div>
-                <select id="category-sub" name="category" size="6">
+                <select id="category-sub" name="category" size="6" required>
 
                 </select>
             </div>
             <div>
                 <p><label for="page-limit">페이지 제한</label></p>
-                <input type="number" id="page-limit" name="page-limit" value="0">
+                <input type="number" id="page-limit" name="page-limit" value="0" required>
             </div>
             <div>
                 <p><label for="chapter-limit">단원 제한</label></p>
-                <input type="number" id="chapter-limit" name="chapter-limit" value="0">
+                <input type="number" id="chapter-limit" name="chapter-limit" value="0" required>
             </div>
             <div>
                 <p><label for="overlap">중복 참여 가능 여부</label></p>
-                <select form="book-form" name="overlap" id="overlap">
+                <select form="book-form" name="overlap" id="overlap" required>
                     <option value="yes">예</option>
                     <option value="no" selected="selected">아니오</option>
                 </select>
             </div>
             <div>
                 <p><label for="series">시리즈 여부</label></p>
-                <select form="book-form" name="series" id="series">
+                <select form="book-form" name="series" id="series" required>
                     <option value="yes">예</option>
                     <option value="no" selected="selected">아니오</option>
                 </select>
             </div>
             <div>
                 <p><label for="private">비공개 여부</label></p>
-                <select form="book-form" name="private" id="private">
+                <select form="book-form" name="private" id="private" required>
                     <option value="yes">예</option>
                     <option value="no" selected="selected">아니오</option>
                 </select>
             </div>
             <div>
                 <p>우클릭 설정</p>
-                <input class="radio-input" type="radio" id="right-click-accept" name="right-click" value="accept" checked="checked">
+                <input class="radio-input" type="radio" id="right-click-accept" name="right-click" value="accept" checked="checked" required>
                 <div class="radio-label"><label for="right-click-accept">허용</label></div>
                 <input class="radio-input" type="radio" id="right-click-deny" name="right-click" value="deny">
                 <div class="radio-label"><label for="right-click-deny">비허용</label></div>
             </div>
             <div>
                 <p>공유 설정</p>
-                <input class="radio-input" type="radio" id="share-accept" name="share" class="share" value="accept" checked="checked">
+                <input class="radio-input" type="radio" id="share-accept" name="share" class="share" value="accept" checked="checked" required>
                 <div class="radio-label"><label for="share-accept">허용</label></div>
                 <input class="radio-input" type="radio" id="share-deny" name="share" class="share" value="deny">
                 <div class="radio-label"><label for="share-deny">비허용</label></div>
             </div>
             <div>
                 <p>&lt;관리자&gt;다른사람이 쓴 글 수정</p>
-                <input class="radio-input" type="radio" id="modify-accept" name="modify" value="accept" checked="checked">
+                <input class="radio-input" type="radio" id="modify-accept" name="modify" value="accept" checked="checked" required>
                 <div class="radio-label"><label for="modify-accept">허용</label></div>
                 <input class="radio-input" type="radio" id="modify-deny" name="modify" value="deny">
                 <div class="radio-label"><label for="modify-deny">비허용</label></div>
             </div>
             <div>
                 <p>&lt;관리자&gt;다른사람이 쓴 글 삭제</p>
-                <input class="radio-input" type="radio" id="delete-accept" name="delete" value="accept" checked="checked">
+                <input class="radio-input" type="radio" id="delete-accept" name="delete" value="accept" checked="checked" required>
                 <div class="radio-label"><label for="delete-accept">허용</label></div>
                 <input class="radio-input" type="radio" id="delete-deny" name="delete" value="deny">
                 <div class="radio-label"><label for="delete-deny">비허용</label></div>
@@ -142,7 +142,7 @@
 
             <div>
                 <p><label for="font">글꼴 지정</label></p>
-                <select form="book-form" name="font" id="font">
+                <select form="book-form" name="font" id="font" required>
                     <option value="type1">타입1</option>
                     <option value="type2">타입2</option>
                 </select>
