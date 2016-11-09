@@ -14,6 +14,13 @@ input::-webkit-search-cancel-button {
 .sub-menu-li > a{
     color: black;
 }
+#nav-li-last{
+    display: none;
+    cursor: pointer;
+}
+.nav-login-menu{
+    cursor: pointer !important;
+}
 /*모바일 웹*/
 @media only screen and (max-device-width: 480px){
     /*header*/
@@ -226,5 +233,11 @@ input::-webkit-search-cancel-button {
     }
     .search-wrapper{
         width: 98%;
+    }
+}
+@media screen and (max-width: 1352px)
+{
+    #nav-li-last{
+        display: block;
     }
 }

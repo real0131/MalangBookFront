@@ -76,6 +76,7 @@ label{
     width: 950px;
     text-align: center;
     margin-bottom: 50px;
+    overflow-y: scroll;
 }
 .login-form{
     width: 70%;
