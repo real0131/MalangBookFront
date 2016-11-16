@@ -29,29 +29,38 @@ main{
     right: -118px;
     top: 0;
 }
+#menu-bookmark{
+    position: relative;
+    top: -550px;
+}
 .book{
     display: table-cell;
     position: relative;
     top: 0;
     left: 0;
     background-color: #ffffff;
-    width: 100%;
+    width: 50%;
     height: 100%;
     padding: 25px 17px 25px 17px;
 }
-.page-left{
+.page{
+    position: relative;
     float: left;
     display: inline-block;
     height: 100%;
-    width: 50%;
-    overflow-y: scroll;
+    width: 500px;
 }
-.page-right{
-    float: left;
-    display: inline-block;
-    height: 100%;
-    width: 50%;
-    overflow-y: scroll;
+.page-title{
+    position: absolute;
+    top: 0px;
+}
+.page-content{
+    position: absolute;
+    top: 50px;
+}
+.page-number{
+    position: absolute;
+    bottom: 0px;
 }
 .reply-container{
     color: #535353;
