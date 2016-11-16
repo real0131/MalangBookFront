@@ -50,7 +50,7 @@ $('#nav-li-last').click(function () {
     $(".login-nav-li")
         .css("background-color","#989898")
         .css("color","white");
-    $("#list-3")
+    $("#list-1")
         .css("background-color","white")
         .css("color","#535353");
     $("#login-login").css("display","inline-block");
