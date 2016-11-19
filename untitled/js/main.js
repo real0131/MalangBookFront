@@ -59,3 +59,7 @@ $('#nav-li-last').click(function () {
     $("#login-signUP").css("display","none");
     $('.content-wrapper').css({display:'none'});
 });
+$(".side-write").click(function () {
+    location.replace('/newbook');
+    //TODO: 링크넣으셈
+});

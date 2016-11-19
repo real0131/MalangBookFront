@@ -167,13 +167,15 @@ p.main-form-p > label{
     line-height: 44px;
     border-radius: 2px;
 }
+.side-write:hover{
+    cursor: pointer;
+}
 /*******************TODO:img 마진주면 밀림 ********************/
 .side-write-img{
     margin: 8px 14px 8px 0px;
 }
 .side-write-link{
 }
-
 .side-top{
     background-color: white;
     border: 2px solid #efefef;
