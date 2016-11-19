@@ -63,3 +63,18 @@ $(".side-write").click(function () {
     location.replace('/newbook');
     //TODO: 링크넣으셈
 });
+var onBookImgError = function () {
+    var num = Math.floor((Math.random() * 5) + 1);
+    switch (num){
+        case 1:
+            return 'image/default_bookcover.png';
+        case 2:
+            return 'image/default_bookcover_1.png';
+        case 3:
+            return 'image/default_bookcover_blue.png';
+        case 4:
+            return 'image/default_bookcover_green.png';
+        case 5:
+            return 'image/default_bookcover_red.png';
+    }
+};
