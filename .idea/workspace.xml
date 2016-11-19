@@ -4,9 +4,7 @@
     <list default="true" id="827eab24-1f94-4de1-964a-d95fc98f7f53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/main.css" afterPath="$PROJECT_DIR$/untitled/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/newbook2.css" afterPath="$PROJECT_DIR$/untitled/css/newbook2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/js/main.js" afterPath="$PROJECT_DIR$/untitled/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/newBook.html" afterPath="$PROJECT_DIR$/untitled/newBook.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/newBook2.html" afterPath="$PROJECT_DIR$/untitled/newBook2.html" />
     </list>
     <ignored path="malang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,22 +52,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="newBook2.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="newBook2.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/untitled/newBook2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2641">
-                  <caret line="139" column="81" selection-start-line="139" selection-start-column="81" selection-end-line="139" selection-end-column="81" />
+                <state relative-caret-position="-56">
+                  <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#3;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#4;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#5;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#5;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="newBook.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="newBook.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/untitled/newBook.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="171">
@@ -197,7 +202,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/untitled/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="528">
@@ -270,11 +275,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/untitled/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3230">
-                  <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+                <state relative-caret-position="399">
+                  <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -340,13 +345,13 @@
         <option value="$PROJECT_DIR$/untitled/mypage.html" />
         <option value="$PROJECT_DIR$/untitled/search.html" />
         <option value="$PROJECT_DIR$/untitled/header_nav.html" />
-        <option value="$PROJECT_DIR$/untitled/newBook2.html" />
         <option value="$PROJECT_DIR$/untitled/reader.html" />
         <option value="$PROJECT_DIR$/untitled/css/reader.css" />
-        <option value="$PROJECT_DIR$/untitled/css/main.css" />
         <option value="$PROJECT_DIR$/untitled/js/main.js" />
         <option value="$PROJECT_DIR$/untitled/css/newbook2.css" />
         <option value="$PROJECT_DIR$/untitled/newBook.html" />
+        <option value="$PROJECT_DIR$/untitled/css/main.css" />
+        <option value="$PROJECT_DIR$/untitled/newBook2.html" />
       </list>
     </option>
   </component>
@@ -579,12 +584,12 @@
       <workItem from="1478018991803" duration="55124000" />
       <workItem from="1478975013871" duration="912000" />
       <workItem from="1479081528656" duration="9336000" />
-      <workItem from="1479572239011" duration="1030000" />
+      <workItem from="1479572239011" duration="2482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259692000" />
+    <option name="totallyTimeSpent" value="261144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,19 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/newBook2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2641">
-          <caret line="139" column="81" selection-start-line="139" selection-start-column="81" selection-end-line="139" selection-end-column="81" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled/editor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -1005,26 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3230">
-          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled/js/newbook.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="62" column="16" selection-start-line="62" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1065,6 +1041,42 @@
             <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="277" column="25" selection-start-line="277" selection-start-column="25" selection-end-line="277" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/newBook2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="124" column="32" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#form#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

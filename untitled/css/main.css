@@ -274,8 +274,17 @@ select{
     height: 36px;
 }
 option{
+    padding-top: 14px;
+    padding-bottom: 14px;
     background-color: white;
-    color: black;
+    color: #535353;
+    border: 1px solid #989898;
+    height: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+option:checked, option:focus, option:active{
+    background-color: #e9e9e9;
 }
 input[type=radio]{
     display: none;

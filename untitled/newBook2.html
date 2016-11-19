@@ -91,53 +91,59 @@
                 <input type="number" id="chapter-limit" name="chapter-limit" value="0" min="0" required>
             </div>
             <div>
-                <p><label for="overlap">중복 참여 가능 여부</label></p>
-                <select form="book-form" name="overlap" id="overlap" required>
-                    <option value="yes">예</option>
-                    <option value="no" selected="selected">아니오</option>
-                </select>
+                <div style="float: left; margin-right: 50px;">
+                    <p><label for="overlap">중복 참여 가능 여부</label></p>
+                    <select form="book-form" name="overlap" id="overlap" required>
+                        <option value="yes">예</option>
+                        <option value="no" selected="selected">아니오</option>
+                    </select>
+                </div>
+                <div style="float: left; margin-right: 50px;">
+                    <p><label for="series">시리즈 여부</label></p>
+                    <select form="book-form" name="series" id="series" required>
+                        <option value="yes">예</option>
+                        <option value="no" selected="selected">아니오</option>
+                    </select>
+                </div>
+                <div style="float: left;">
+                    <p><label for="private">비공개 여부</label></p>
+                    <select form="book-form" name="private" id="private" required>
+                        <option value="yes">예</option>
+                        <option value="no" selected="selected">아니오</option>
+                    </select>
+                </div>
             </div>
             <div>
-                <p><label for="series">시리즈 여부</label></p>
-                <select form="book-form" name="series" id="series" required>
-                    <option value="yes">예</option>
-                    <option value="no" selected="selected">아니오</option>
-                </select>
+                <div style="float: left; margin-right: 50px;">
+                    <p>우클릭 설정</p>
+                    <input class="radio-input" type="radio" id="right-click-accept" name="right-click" value="accept" checked="checked" required>
+                    <div class="radio-label"><label for="right-click-accept">허용</label></div>
+                    <input class="radio-input" type="radio" id="right-click-deny" name="right-click" value="deny">
+                    <div class="radio-label"><label for="right-click-deny">비허용</label></div>
+                </div>
+                <div style="float: left; margin-right: 50px;">
+                    <p>공유 설정</p>
+                    <input class="radio-input" type="radio" id="share-accept" name="share" class="share" value="accept" checked="checked" required>
+                    <div class="radio-label"><label for="share-accept">허용</label></div>
+                    <input class="radio-input" type="radio" id="share-deny" name="share" class="share" value="deny">
+                    <div class="radio-label"><label for="share-deny">비허용</label></div>
+                </div>
             </div>
             <div>
-                <p><label for="private">비공개 여부</label></p>
-                <select form="book-form" name="private" id="private" required>
-                    <option value="yes">예</option>
-                    <option value="no" selected="selected">아니오</option>
-                </select>
-            </div>
-            <div>
-                <p>우클릭 설정</p>
-                <input class="radio-input" type="radio" id="right-click-accept" name="right-click" value="accept" checked="checked" required>
-                <div class="radio-label"><label for="right-click-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="right-click-deny" name="right-click" value="deny">
-                <div class="radio-label"><label for="right-click-deny">비허용</label></div>
-            </div>
-            <div>
-                <p>공유 설정</p>
-                <input class="radio-input" type="radio" id="share-accept" name="share" class="share" value="accept" checked="checked" required>
-                <div class="radio-label"><label for="share-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="share-deny" name="share" class="share" value="deny">
-                <div class="radio-label"><label for="share-deny">비허용</label></div>
-            </div>
-            <div>
-                <p>&lt;관리자&gt;다른사람이 쓴 글 수정</p>
-                <input class="radio-input" type="radio" id="modify-accept" name="modify" value="accept" checked="checked" required>
-                <div class="radio-label"><label for="modify-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="modify-deny" name="modify" value="deny">
-                <div class="radio-label"><label for="modify-deny">비허용</label></div>
-            </div>
-            <div>
-                <p>&lt;관리자&gt;다른사람이 쓴 글 삭제</p>
-                <input class="radio-input" type="radio" id="delete-accept" name="delete" value="accept" checked="checked" required>
-                <div class="radio-label"><label for="delete-accept">허용</label></div>
-                <input class="radio-input" type="radio" id="delete-deny" name="delete" value="deny">
-                <div class="radio-label"><label for="delete-deny">비허용</label></div>
+                <div style="float: left; margin-right: 50px;">
+                    <p>&lt;관리자&gt;다른사람이 쓴 글 수정</p>
+                    <input class="radio-input" type="radio" id="modify-accept" name="modify" value="accept" checked="checked" required>
+                    <div class="radio-label"><label for="modify-accept">허용</label></div>
+                    <input class="radio-input" type="radio" id="modify-deny" name="modify" value="deny">
+                    <div class="radio-label"><label for="modify-deny">비허용</label></div>
+                </div>
+                <div style="float: left; margin-right: 50px;">
+                    <p>&lt;관리자&gt;다른사람이 쓴 글 삭제</p>
+                    <input class="radio-input" type="radio" id="delete-accept" name="delete" value="accept" checked="checked" required>
+                    <div class="radio-label"><label for="delete-accept">허용</label></div>
+                    <input class="radio-input" type="radio" id="delete-deny" name="delete" value="deny">
+                    <div class="radio-label"><label for="delete-deny">비허용</label></div>
+                </div>
             </div>
             <div style="display: block;">
                 <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
