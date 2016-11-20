@@ -1,15 +1,18 @@
 $("#btn-finish").click(function () {
     console.log("btn-finish onclick");
     $("#library-pending").css('display','none');
+    $("#library-recent").css('display','none');
     $("#library-finish").css('display','block');
 });
 $("#btn-pending").click(function () {
     console.log("btn-finish onclick");
     $("#library-finish").css('display','none');
+    $("#library-recent").css('display','none');
     $("#library-pending").css('display','block');
 });
-$("#btn-pending").click(function () {
+$("#btn-recent").click(function () {
     console.log("btn-finish onclick");
     $("#library-finish").css('display','none');
-    $("#library-pending").css('display','block');
+    $("#library-pending").css('display','none');
+    $("#library-recent").css('display','block');
 });
