@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="827eab24-1f94-4de1-964a-d95fc98f7f53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/reader_editor.html" afterPath="$PROJECT_DIR$/untitled/reader_editor.html" />
     </list>
     <ignored path="malang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +45,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="reader_editor.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="reader_editor.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/untitled/reader_editor.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+                <state relative-caret-position="519">
+                  <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,20 +94,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mp_setting.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="mp_setting.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/untitled/mp_setting.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1482">
-                  <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+                <state relative-caret-position="367">
+                  <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
                   <folding />
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="booooook.png" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/untitled/image/booooook.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -117,6 +109,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="228">
                   <caret line="12" column="837" selection-start-line="12" selection-start-column="837" selection-end-line="12" selection-end-column="837" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mp_participate.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/untitled/mp_participate.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -574,12 +576,12 @@
       <workItem from="1478018991803" duration="55124000" />
       <workItem from="1478975013871" duration="912000" />
       <workItem from="1479081528656" duration="9336000" />
-      <workItem from="1479572239011" duration="12936000" />
+      <workItem from="1479572239011" duration="12983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271598000" />
+    <option name="totallyTimeSpent" value="271645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,23 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/mp_participate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -975,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/mp_setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled/social.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -1089,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/reader_editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+        <state relative-caret-position="519">
+          <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1100,6 +1077,22 @@
             <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/mp_participate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/mp_setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

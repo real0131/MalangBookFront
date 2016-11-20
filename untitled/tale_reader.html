@@ -6,7 +6,13 @@
     <link rel="stylesheet" type="text/css" href="css/header.css"/>
     <link rel="stylesheet" type="text/css" href="css/init.css"/>
     <link rel="stylesheet" type="text/css" href="css/reader.css">
-
+    <style>
+        .page-img-wrap{
+            background-image: url('');
+            background-repeat: no-repeat;
+            shape-outside: url(''); /*background랑 같이*/
+        }
+    </style>
     <title>Title</title>
 </head>
 <body>
@@ -81,6 +87,7 @@
                 <div class="page-title">내가 나인 이야기</div>
                 <div class="page-content">
                     <!-- 동화에서는 display:none 지워주셈-->
+                    <div class="page-img-wrap" style="float: left; display: none;"></div>
                     투명드래곤은 짱짱 쌔다 퍄퍄 <br>
                     투명드래곤은 짱짱 쌔다 퍄퍄 <br>
                     투명드래곤은 짱짱 쌔다 퍄퍄 <br>
@@ -97,7 +104,7 @@
                 <img src="image/btn_writing_participate.png" alt="participate">
             </div>
             </span>
-        </div>
+    </div>
     </div>
     <div class="author-container">
         <div style="font-size: 24px; margin-bottom: 10px;">작가 프로필</div>
@@ -145,7 +152,7 @@
                 </div>
             </div>
             <% });%>
-    </div>
+        </div>
 </main>
 <footer>
 </footer>
