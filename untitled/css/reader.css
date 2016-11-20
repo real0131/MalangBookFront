@@ -50,6 +50,13 @@ main{
     height: 100%;
     width: 100%;
 }
+.page-img-wrap{
+    float: left;
+    width: 300px;
+    height: 300px;
+    shape-margin: 10px;
+    shape-image-threshold: 0.5;
+}
 #page-background{
     position: absolute;
     top: 0;
@@ -76,6 +83,7 @@ main{
 .page-content{
     position: absolute;
     top: 50px;
+    float: left;
 }
 .page-number{
     position: absolute;

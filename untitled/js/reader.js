@@ -11,3 +11,22 @@ $(document).ready(function () {
       }
    });
 });
+function readURL(input) {
+
+   if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+          console.log('d');
+          $('.page-img-wrap').css({'background-image' : e.target.result , 'shape-outside': e.target.result});
+      };
+
+      reader.readAsDataURL(input.files[0]);
+   }
+}
+$("document").ready(function(){
+   $("#page-img-change").change(function() {
+       console.log('asdf');
+      readURL(this);
+   });
+});

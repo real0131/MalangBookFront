@@ -2,9 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="theme-color" content="#989898">
+    <link rel="stylesheet" type="text/css" href="css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="css/init.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reader.css">
+    <style>
+        .page-img-wrap{
+            background-image: url('image/ic_profile.png');
+            background-repeat: no-repeat;
+            shape-outside: url('image/ic_profile.png');
+        }
+    </style>
     <title>Title</title>
 </head>
 <body>
-
+<header>
+    <div class="header-wrapper">
+        <div class="logo-wrapper">
+            <a href="/main"><img src="image/logo_malangbook.png" alt="main-logo"></a>
+        </div>
+        <div class="search-container">
+            <div class="search-wrapper">
+                <form method="GET" id="search" action="/search">
+                    <input type="image" src="image/ic_main_search.png" name="Submit" value="Submit" id="search-icon" alt="search">
+                    <input type="search" name="q" placeholder="책 검색" id="search-input">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="nav-wrapper">
+        <ul class="nav-ul">
+            <li class="nav-li">
+                <a href="/main" style="color: white">홈</a>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">소설</a>
+                <ul>
+                    <li class="sub-menu-li"><a href="/?nav=sf">SF</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=mystery">미스터리</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=fantasy">판타지</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=serious">시리어스</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=comic">코믹</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=romance">순애, 로맨스</a></li>
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">동화</a>
+                <ul>
+                    <li class="sub-menu-li"><a href="/?nav=orient">동양권</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=occident">서양권</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=korean">한국 전래</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=made">자작</a></li>
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">시</a>
+                <ul>
+                    <li class="sub-menu-li"><a href="/?nav=free">자유 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=fixed">정형 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=prose">산문 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=lyric">서정 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=narration">서사 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=play">극 시</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <form method="POST" id="reader-editor" action="">
+        <div class="title">
+            <h1 class="title-main">글 쓰기</h1>
+        </div>
+        <div class="book-container">
+        <span class="side-menu-left">
+        </span>
+            <div class="book">
+                <!-- TODO:ejs 책내용-->
+                <div class="page">
+                    <div class="page-content" style="float: left;">
+                        <div class="page-img-wrap" style="float: left;"></div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex aspernatur libero id quas labore,
+                        repudiandae harum eaque quidem nam consequatur beatae officia omnis blanditiis,
+                        tenetur cumque quidem, totam, quia, autem mollitia!
+                    </div>
+                </div>
+            </div>
+        <span class="side-menu-right">
+        </span>
+        </div>
+        <div style="display: block; margin-top: 50px; margin-bottom: 100px;">
+            <div style="float: right;"><input type="file" value="이미지" class="btn-submit" id="page-img-change" style="font-size: 18px;"></div>
+            <div style="float: right;"><input type="submit" value="확인" class="btn-submit" style="font-size: 18px;"></div>
+            <div style="float: right; font-size: 18px;" class="btn-cancel">취소</div>
+        </div>
+    </form>
+</main>
+<footer>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/reader.js" type="text/javascript"></script>
 </body>
 </html>
