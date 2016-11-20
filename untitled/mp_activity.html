@@ -75,31 +75,45 @@
     <div>
         <div class="activity-wrapper">
             <div class="activity-title">
-                <div><div><!-- 작가 이름--></div> 작가님의 활동기록입니다</div>
+                <div style="font-size: 18px; margin-left: 18px;"><span style="font-size: 24px; color: #a0ca75;">휴모르 스토라제<!-- 작가 이름--></span> 작가님의 활동기록입니다</div>
             </div>
             <div class="activity-info">
                 <div class="activity-box">
                     <div class="img-wrapper">
-                        <img>
+                        <img src="image/ic_log_making.png" alt="making" align="center">
                     </div>
-                    <div class="activity-info-title"></div>
-                    <div class="activity-info-data"></div>
+                    <div class="activity-info-title">만든 글</div>
+                    <div class="activity-info-data"><%= user.u_bookopen %>개</div>
+                </div>
+                <div class="activity-box">
+                    <div class="img-wrapper">
+                        <img src="image/ic_log_participate.png" alt="making" align="center">
+                    </div>
+                    <div class="activity-info-title">참여 글</div>
+                    <div class="activity-info-data"><%= user.u_bookjoin %> 개</div>
+                </div>
+                <div class="activity-box">
+                    <div class="img-wrapper">
+                        <img src="image/ic_log_jul.png" alt="making" align="center">
+                    </div>
+                    <div class="activity-info-title">쓴 줄의 수</div>
+                    <div class="activity-info-data"><%= user.u_bookopen %>줄</div>
+                </div>
+                <div class="activity-box">
+                    <div class="img-wrapper">
+                        <img src="image/ic_log_sajok.png" alt="making" align="center">
+                    </div>
+                    <div class="activity-info-title">쓴 사족</div>
+                    <div class="activity-info-data"><%= user.u_reply %>번</div>
+                </div>
+                <div class="activity-box">
+                    <div class="img-wrapper">
+                        <img src="image/ic_log_like.png" alt="making" align="center">
+                    </div>
+                    <div class="activity-info-title">추천 받은 횟수</div>
+                    <div class="activity-info-data"><%= user.u_recommend %>번</div>
                 </div>
             </div>
-        </div>
-        <div class="activity-label">
-            <p>만든 글 : </p>
-            <p>참여 글 : </p>
-            <p>쓴 줄의 수 :</p>
-            <p>쓴 사족 : </p>
-            <p>추천 받은 횟수 : </p>
-        </div>
-        <div class="activity-data">
-            <p id="activity-makebook"><!--{{ TODO: 활동 데이터 : 책만든횟수 }}--> <%= user.u_bookopen %>개</p>
-            <p id="activity-participate"><!--{{ TODO: 참여한 횟수> }}--><%= user.u_bookjoin %>개</p>
-            <p id="activity-makewrite"><!--{{ TODO: 쓴 줄의 수 }}--><%= user.u_bookopen %>줄</p>
-            <p id="activity-writereply"><!--{{ TODO: 쓴 사족> }}--><%= user.u_reply %>번</p>
-            <p id="activity-recommend"><!--{{ TODO: 추천 받은 횟수 }}--><%= user.u_recommend %>번</p>
         </div>
         <!-- 활동기록 데이터 -->
     </div>
