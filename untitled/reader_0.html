@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#989898">
+    <link rel="stylesheet" type="text/css" href="css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="css/init.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reader.css">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <div class="header-wrapper">
+        <div class="logo-wrapper">
+            <a href="/main"><img src="image/logo_malangbook.png" alt="main-logo"></a>
+        </div>
+        <div class="search-container">
+            <div class="search-wrapper">
+                <form method="GET" id="search" action="/search">
+                    <input type="image" src="image/ic_main_search.png" name="Submit" value="Submit" id="search-icon" alt="search">
+                    <input type="search" name="q" placeholder="책 검색" id="search-input">
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="nav-wrapper">
+        <ul class="nav-ul">
+            <li class="nav-li">
+                <a href="/main" style="color: white">홈</a>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">소설</a>
+                <ul>
+                    <li class="sub-menu-li"><a href="/?nav=sf">SF</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=mystery">미스터리</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=fantasy">판타지</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=serious">시리어스</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=comic">코믹</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=romance">순애, 로맨스</a></li>
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">동화</a>
+                <ul>
+                    <li class="sub-menu-li"><a href="/?nav=orient">동양권</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=occident">서양권</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=korean">한국 전래</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=made">자작</a></li>
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a style="color: white">시</a>
+                <ul>
+                    <li class="sub-menu-li"><a href="/?nav=free">자유 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=fixed">정형 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=prose">산문 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=lyric">서정 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=narration">서사 시</a></li>
+                    <li class="sub-menu-li"><a href="/?nav=play">극 시</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="title">
+        <h1 class="title-main">글 읽기</h1>
+    </div>
+    <div class="book-container">
+        <span class="side-menu-left">
+            <div class="bookmark" id="menu-report">
+                <img src="image/btn_writing_singo.png" alt="report">
+            </div>
+        </span>
+        <div class="book" style="padding: 0 !important;">
+            <!-- TODO:ejs 책내용-->
+            <div class="page">
+                <div class="page-title-0">내가 나인 이야기</div>
+            </div>
+        </div>
+        <span class="side-menu-right">
+            <div class="bookmark" id="menu-bookmark">
+                <img src="image/btn_writing_bookmark.png" alt="bookmark">
+            </div>
+            <div class="participate">
+                <img src="image/btn_writing_participate.png" alt="participate">
+            </div>
+            </span>
+    </div>
+    </div>
+    <div class="author-container">
+        <div style="font-size: 24px; margin-bottom: 10px;">작가 프로필</div>
+        <div id="profile-wrapper">
+            <div>
+                <img src="<!--TODO:작성자 프로필-->" onerror="this.src='image/ic_profile_error.png'" alt="profile-image" class="author-profile-img">
+                <div id="author-wrapper-info">
+                    <div style="font-size: 30px;">BARNEY</div>
+                    <div style="font-size: 18px;" class="btn-recommend">추천하기</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reply-container">
+        <p id="reply-form-title">사족</p>
+        <div class="reply-form-wrapper">
+            <form id="reply-form" method="POST" action="">
+                <div class="textarea-wrapper">
+                    <textarea form="reply-form" id="reply-textarea" name="reply"></textarea>
+                </div>
+                <div class="submit-wrapper">
+                    <input type="submit" value="등록" class="btn-reply">
+                    <span>200자 제한</span>
+                    <span id="reply-textare-length">0/200</span>
+                </div>
+            </form>
+        </div>
+        <div class="reply-list-wrapper">
+            <% data.forEach(function (reply, index) { %>
+            <div class="reply">
+                <div class="reply-profile-wrapper">
+                    <div class="reply-profile">
+                        <!-- TODO: 이미지 프로필(아래 img태그 src참조)-->
+                        <img src="<!--TODO:댓글 프로필-->" onerror="this.src='image/ic_profile_error.png'" alt="profile-image" class="reply-profile-img">
+                    </div>
+                </div>
+                <div class="reply-content-wrapper">
+                    <div class="reply-content">
+                        <div class="reply-content-who"><span style="font-size: 24px;"><!--TODO:ejs댓글 유저 닉네임--><%= reply.r_user =></span> 님의 댓글</div>
+                        <div class="reply-content-content">헉 완죤 멋져용 >< 이거 완전 갓 소설 이네요<!--{% TODO:댓글 내용 %}--><%= reply.r_content =></div>
+                    </div>
+                </div>
+                <div class="reply-info">
+                    <div>2016.09.25<!-- {% TODO:댓글 시간 %}--><%= reply.r_create =>&nbsp; <a href="http://도메인/report?book=<%= books.no =>&replyno=<% %>">신고<!--TODO:신고 링크 짜기--></a></div>
+                </div>
+            </div>
+            <% });%>
+        </div>
+</main>
+<footer>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/reader.js" type="text/javascript"></script>
+</body>
+</html>
