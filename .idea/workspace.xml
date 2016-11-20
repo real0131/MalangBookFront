@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="827eab24-1f94-4de1-964a-d95fc98f7f53" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/css/reader.css" afterPath="$PROJECT_DIR$/untitled/css/reader.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/js/reader.js" afterPath="$PROJECT_DIR$/untitled/js/reader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/reader.html" afterPath="$PROJECT_DIR$/untitled/reader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/untitled/tale_editor.html" afterPath="$PROJECT_DIR$/untitled/tale_editor.html" />
     </list>
     <ignored path="malang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -197,8 +194,8 @@
           <file leaf-file-name="reader.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/untitled/js/reader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+                <state relative-caret-position="380">
+                  <caret line="20" column="125" selection-start-line="20" selection-start-column="125" selection-end-line="20" selection-end-column="125" />
                   <folding />
                 </state>
               </provider>
@@ -591,12 +588,12 @@
       <workItem from="1478018991803" duration="55124000" />
       <workItem from="1478975013871" duration="912000" />
       <workItem from="1479081528656" duration="9336000" />
-      <workItem from="1479572239011" duration="11896000" />
+      <workItem from="1479572239011" duration="12687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270558000" />
+    <option name="totallyTimeSpent" value="271349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1093,6 +1090,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/untitled/js/reader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="125" selection-start-line="20" selection-start-column="125" selection-end-line="20" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/untitled/tale_editor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -1109,14 +1114,6 @@
             <element signature="n#style#0;n#div#1;n#div#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/js/reader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>

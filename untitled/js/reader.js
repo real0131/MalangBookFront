@@ -18,7 +18,7 @@ function readURL(input) {
 
       reader.onload = function (e) {
           console.log('d');
-          $('.page-img-wrap').css({'background-image' : e.target.result , 'shape-outside': e.target.result});
+          $('.page-img-wrap').css({'background-image' : "url("+e.target.result+")" , 'shape-outside': "url("+e.target.result+")"});
       };
 
       reader.readAsDataURL(input.files[0]);
